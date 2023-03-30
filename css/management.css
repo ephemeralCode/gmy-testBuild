@@ -1,0 +1,45 @@
+.Management-container {
+}
+
+.Management-wrapper {
+}
+
+.Management-gridTemplate {
+    display: grid;
+    grid-template-areas: 
+        'photo card1' 
+        'photo card2'
+    ;
+}
+
+.Management-image {
+    grid-area: photo;
+}
+
+.Management-containerText:nth-child(2) {
+    grid-area: card1;
+}
+
+.Management-containerText:nth-child(3) {
+    grid-area: card2;
+}
+
+.Management-containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    max-width: 610px;
+    width: 100%;
+
+    padding: 62px;
+
+    background: var(--mainWhite);
+}
+
+.Management-title {
+}
+
+.Management-text {
+    margin: 24px 0 0;
+}

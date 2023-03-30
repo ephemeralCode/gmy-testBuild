@@ -1,0 +1,26 @@
+.CustomerService-container {
+}
+
+.CustomerService-wrapper {
+    height: 548px;
+}
+
+.CustomerService-containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    max-width: 740px;
+    width: 100%;
+
+    padding: 62px;
+
+    background: var(--mainWhite);
+}
+
+.CustomerService-title {
+}
+
+.CustomerService-text {
+    margin: 24px 0 0;
+}

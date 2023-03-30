@@ -1,0 +1,28 @@
+.GraphicDesign-container {
+}
+
+
+.GraphicDesign-wrapper {
+}
+
+
+.GraphicDesign-containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 100%;
+
+    padding: 62px;
+
+    background: var(--mainWhite);
+}
+
+
+.GraphicDesign-title {
+
+}
+
+.GraphicDesign-text {
+    margin: 24px 0 0;
+}

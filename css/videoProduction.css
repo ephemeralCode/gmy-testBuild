@@ -1,0 +1,40 @@
+.VideoProduction-container {
+}
+
+.VideoProduction-wrapper {
+    position: relative;
+
+    height: 626px;
+
+    background: #B7B7B7;
+}
+
+.VideoProduction-iconPlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.VideoProduction-containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    max-width: 640px;
+    width: 100%;
+
+    padding: 62px;
+}
+
+.VideoProduction-title {
+}
+
+.VideoProduction-text {
+    margin: 24px 0 0;
+}
+
+.VideoProduction-title, .VideoProduction-text {
+    color: var(--mainWhite);
+}

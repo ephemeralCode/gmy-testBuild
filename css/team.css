@@ -1,0 +1,55 @@
+.Team-container{
+    padding: 0 0 100px 0;
+}
+
+.Team-wrapper {
+}
+
+.Team-containerPerson {
+    position: relative;
+}
+
+.Team-imagePerson {
+    max-width: 304px;
+    width: 100%;
+
+    border: 1px solid var(--mainBlack);
+    border-radius: 30px;
+}
+
+.Team-containerInfoPerson {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 100%;
+    height: 336px;
+
+    padding: 37px 32px;
+
+    background: linear-gradient(
+        359.74deg, 
+        #1B1B1B -10.99%, 
+        rgba(27, 27, 27, 0.625018) 30.06%, 
+        rgba(27, 27, 27, 0) 99.67%
+    );
+}
+
+.Team-containerPerson:hover .Team-containerInfoPerson{
+    display: flex;
+}
+
+.Team-infoPersonName {
+}
+
+.Team-infoPersonProfession {
+    margin: 12px 0 0;
+}
+
+.Team-infoPersonName, .Team-infoPersonProfession {
+    color: var(--mainWhite);
+}

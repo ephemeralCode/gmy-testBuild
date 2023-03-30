@@ -1,0 +1,40 @@
+.Main-container {
+    height: 930px;
+
+    background-color: var(--secondaryWhite);
+}
+
+.Main-wrapper {
+    text-align: center;
+}
+
+.Main-containerTitle {
+    position: absolute;
+    top: 138px;
+    left: 50%;
+
+    width: 100%;
+
+    transform: translateX(-50%);
+
+    z-index: 2;
+}
+
+.Main-title {
+}
+
+.Main-text {
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.Main-imageBackground {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    
+    z-index: 1;
+}

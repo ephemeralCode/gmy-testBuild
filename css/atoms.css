@@ -1,0 +1,123 @@
+:root {
+    --mainBlack: #1B1B1B;
+    --mainWhite: #FFF;
+    --secondaryWhite: #ECECEC;
+
+    --maxDesctopContainerSize: 1520px;
+
+    --grayText: #828282;
+    --greenText: #00C3A7;
+}
+
+/* components */
+
+.maxContainerSize {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: var(--maxDesctopContainerSize);
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.blackTheme {
+    background: var(--mainBlack);
+}
+
+.borderRadiusUp {
+    border-radius: 30px 30px 0 0;
+}
+
+.borderRadiusDown {
+    border-radius: 0 0 30px 30px;
+}
+
+.borderRadiusFull {
+    border-radius: 30px;
+    border: 1px solid var(--mainBlack);
+}
+
+/* btns */
+
+.primary {
+    background: var(--mainBlack);
+    border-radius: 50px;
+
+    color: var(--mainWhite);
+}
+
+.primary:hover {
+    background: none;
+    border: 1px solid var(--mainBlack);
+
+    color: var(--mainBlack);
+}
+
+.secondary {
+    background: none;
+    border: 1px solid var(--mainWhite);
+    border-radius: 50px;
+
+    color: var(--mainWhite);
+}
+
+.secondary:hover {
+    background: var(--mainWhite);
+
+    color: var(--mainBlack);
+}
+
+/* fonts */
+
+.h1 {
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 67px;
+}
+
+.h2 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.h3 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 61px;
+}
+
+.h4 {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+.textSmall {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.textLarge {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.textUppercase {
+    text-transform: uppercase;
+}
+
+.textBtn {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.textLink {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}

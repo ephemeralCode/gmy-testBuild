@@ -1,0 +1,31 @@
+.Bookkeeping-container {
+}
+
+/* TODO bg img */
+.Bookkeeping-wrapper {
+    height: 626px;
+  
+    padding: 62px;
+
+    background: #B7B7B7;
+}
+
+.Bookkeeping-containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    max-width: 534px;
+    width: 100%;
+}
+
+.Bookkeeping-title {
+}
+
+.Bookkeeping-text {
+    margin: 24px 0 0;
+}
+
+.Bookkeeping-title, .Bookkeeping-text {
+    color: var(--mainWhite);
+}

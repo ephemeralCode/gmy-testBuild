@@ -1,0 +1,49 @@
+.ECommerceServices-container {
+}
+
+.ECommerceServices-wrapper {
+    width: 100%;
+
+    padding: 62px;
+
+    background: var(--mainWhite);
+}
+
+.ECommerceServices-containerMainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 627px;
+    width: 100%;
+}
+
+.ECommerceServices-mainTitle {
+}
+
+.ECommerceServices-mainText {
+}
+
+.ECommerceServices-containerInfoCards {
+}
+
+.ECommerceServices-infoCard {
+    display: flex;
+    align-items: center;
+}
+
+.ECommerceServices-infoCard + .ECommerceServices-infoCard {
+    margin: 75px 0 0;
+}
+
+.ECommerceServices-infoCardNumber {
+    width: 103px;
+
+    font-weight: 400;
+}
+
+.ECommerceServices-infoCardText {
+   max-width: 350px;
+
+   margin: 0 0 0 88px;
+}

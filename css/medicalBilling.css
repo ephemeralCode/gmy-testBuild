@@ -1,0 +1,30 @@
+.MedicalBilling-container {
+}
+
+.MedicalBilling-wrapper {
+    height: 626px;
+}
+
+.MedicalBilling-containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    max-width: 650px;
+    width: 100%;
+
+    padding: 62px;
+
+    background: var(--mainWhite);
+}
+
+.MedicalBilling-title {
+}
+
+.MedicalBilling-text {
+    margin: 24px 0 0;
+}
+
+.MedicalBilling-title, .MedicalBilling-text {
+    color: var(--mainBlack);
+}
