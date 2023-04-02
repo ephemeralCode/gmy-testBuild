@@ -4,19 +4,12 @@
 /* TODO bg img */
 .Bookkeeping-wrapper {
     height: 626px;
-  
-    padding: 62px;
 
     background: #B7B7B7;
 }
 
-.Bookkeeping-containerText {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
+.Bookkeeping-containerInfo {
     max-width: 534px;
-    width: 100%;
 }
 
 .Bookkeeping-title {
@@ -28,4 +21,15 @@
 
 .Bookkeeping-title, .Bookkeeping-text {
     color: var(--mainWhite);
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .Bookkeeping-wrapper {
+        height: 501px;
+    }
+
+    .Bookkeeping-text {
+        margin: 16px 0 0;
+    }
 }

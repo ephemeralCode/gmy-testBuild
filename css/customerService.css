@@ -2,18 +2,11 @@
 }
 
 .CustomerService-wrapper {
-    height: 548px;
+    /* height: 548px; */
 }
 
-.CustomerService-containerText {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
+.CustomerService-containerInfo {
     max-width: 740px;
-    width: 100%;
-
-    padding: 62px;
 
     background: var(--mainWhite);
 }
@@ -23,4 +16,31 @@
 
 .CustomerService-text {
     margin: 24px 0 0;
+}
+
+.CustomerService-image {
+    /* max-width: 780px;
+    width: 100%;
+    max-height: 548px;
+    height: 100%; */
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .CustomerService-wrapper {
+        height: 439px;
+    }
+
+    .CustomerService-containerInfo {
+        max-width: 592px;
+    }
+
+    .CustomerService-text {
+        margin: 16px 0 0;
+    }
+
+    .CustomerService-image {
+        max-width: 624px;
+        height: 100%;
+    }
 }

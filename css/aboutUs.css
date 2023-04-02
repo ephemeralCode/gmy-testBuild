@@ -3,8 +3,6 @@
 
     margin: -55px 0 0;
 
-    border-radius: 30px 30px 0 0;
-
     z-index: 5;
 }
 
@@ -32,8 +30,21 @@
 }
 
 .AboutUs-btnToServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100%;
-    height: 53px;
+    height: 66px;
+}
+
+.AboutUs-iconBtnToServices {
+    margin: 0 0 5px 10px;
+
+    width: 25px;
+    height: 25px;
+
+    transform: rotate(180deg);
 }
 
 .AboutUs-containerCards {
@@ -61,4 +72,31 @@
     margin: 30px 0 0;
     
     color: var(--grayText);
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .AboutUs-container {
+        margin: -31px 0 0;
+    }
+
+    .AboutUs-containerTitle {
+        max-width: 244px;
+    }
+    
+    .AboutUs-btnToServices {
+        height: 53px;
+    }
+
+    .AboutUs-containerCards {
+        max-width: 800px;
+        width: 100%;
+    
+        gap: 80px 30px;
+    }
+
+    .AboutUs-containerCard {
+        max-width: 385px;
+        height: 226px;
+    }
 }

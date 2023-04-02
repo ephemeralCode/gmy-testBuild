@@ -2,6 +2,7 @@
 }
 
 .Management-wrapper {
+    height: 1096px;
 }
 
 .Management-gridTemplate {
@@ -16,23 +17,16 @@
     grid-area: photo;
 }
 
-.Management-containerText:nth-child(2) {
+.Management-containerInfo:nth-child(2) {
     grid-area: card1;
 }
 
-.Management-containerText:nth-child(3) {
+.Management-containerInfo:nth-child(3) {
     grid-area: card2;
 }
 
-.Management-containerText {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
+.Management-containerInfo {
     max-width: 610px;
-    width: 100%;
-
-    padding: 62px;
 
     background: var(--mainWhite);
 }
@@ -42,4 +36,26 @@
 
 .Management-text {
     margin: 24px 0 0;
+}
+
+@media only screen and (max-width: 1440px) {
+    .Management-wrapper {
+        height: 878px;
+    }
+
+    .Management-image {
+        width: 728px;
+        height: 100%;
+    }
+
+    .Management-containerInfo {
+        max-width: 488px;
+        height: 439px;
+    
+        background: var(--mainWhite);
+    }
+
+    .Management-text {
+        margin: 16px 0 0;
+    }
 }

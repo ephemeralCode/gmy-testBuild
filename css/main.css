@@ -1,5 +1,5 @@
 .Main-container {
-    height: 930px;
+    height: 931px;
 
     background-color: var(--secondaryWhite);
 }
@@ -24,8 +24,8 @@
 }
 
 .Main-text {
-    font-size: 51px;
-    font-weight: 400;
+    margin: 20px 0 0;
+
     line-height: 45px;
 }
 
@@ -34,7 +34,24 @@
     top: 0;
     left: 50%;
 
+    width: 1586px;
+    height: 931px;
+
     transform: translateX(-50%);
     
     z-index: 1;
+}
+
+@media only screen and (max-width: 1440px)  {
+
+    .Main-container {
+        height: 851px;
+    
+        background-color: var(--secondaryWhite);
+    }
+
+    .Main-imageBackground {
+        width: 1448px;
+        height: 851px;
+    }
 }

@@ -12,9 +12,7 @@
 .Team-imagePerson {
     max-width: 304px;
     width: 100%;
-
-    border: 1px solid var(--mainBlack);
-    border-radius: 30px;
+    height: 100%;
 }
 
 .Team-containerInfoPerson {
@@ -52,4 +50,14 @@
 
 .Team-infoPersonName, .Team-infoPersonProfession {
     color: var(--mainWhite);
+}
+
+@media only screen and (max-width: 1440px) {
+    .Team-wrapper {
+        height: 475px;
+    }
+
+    .Team-containerInfoPerson {
+        height: 269px;
+    }
 }

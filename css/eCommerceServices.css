@@ -4,8 +4,6 @@
 .ECommerceServices-wrapper {
     width: 100%;
 
-    padding: 62px;
-
     background: var(--mainWhite);
 }
 
@@ -46,4 +44,25 @@
    max-width: 350px;
 
    margin: 0 0 0 88px;
+}
+
+@media only screen and (max-width: 1440px) {
+    
+    .ECommerceServices-containerMainInfo {
+        max-width: 470px;
+    }
+
+    .ECommerceServices-infoCard + .ECommerceServices-infoCard {
+        margin: 60px 0 0;
+    }
+
+    .ECommerceServices-infoCardNumber {
+        width: 83px;
+    }
+
+    .ECommerceServices-infoCardText {
+        max-width: 280px;
+     
+        margin: 0 0 0 62px;
+     }
 }

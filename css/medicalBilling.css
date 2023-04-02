@@ -5,17 +5,19 @@
     height: 626px;
 }
 
-.MedicalBilling-containerText {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
+.MedicalBilling-containerInfo {
     max-width: 650px;
-    width: 100%;
-
-    padding: 62px;
 
     background: var(--mainWhite);
+}
+
+.MedicalBilling-image {
+    /* max-width: 870px;
+    width: 100%;
+    max-height: 626px;
+    height: 100%; */
+
+    width: 100%;
 }
 
 .MedicalBilling-title {
@@ -27,4 +29,27 @@
 
 .MedicalBilling-title, .MedicalBilling-text {
     color: var(--mainBlack);
+}
+
+@media only screen and (max-width: 1440px) {
+    .MedicalBilling-wrapper {
+        height: 501px;
+    }
+
+    .MedicalBilling-containerInfo {
+        max-width: 520px;
+    
+        background: var(--mainWhite);
+    }
+    
+    .MedicalBilling-image {
+        /* max-width: 696px;
+        width: 100%;
+        max-height: 501px;
+        height: 100%; */
+    }
+
+    .MedicalBilling-text {
+        margin: 16px 0 0;
+    }
 }

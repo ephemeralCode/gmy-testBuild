@@ -3,10 +3,22 @@
     --mainWhite: #FFF;
     --secondaryWhite: #ECECEC;
 
-    --maxDesctopContainerSize: 1520px;
-
     --grayText: #828282;
     --greenText: #00C3A7;
+
+    /* max size content */
+    --maxDesctopContainerSize: 1520px;
+    --maxNotebookContainerSize: 1216px;
+    --maxTabletContainerSize: 690px;
+    --maxMobileContainerSize: 320px;
+
+    /* breakpoints */
+    /*  
+    --Desctop: 1920px;
+    --Notebook: 1440px;
+    --Tablet: 768px;
+    --Mobile: 360px; 
+    */
 }
 
 /* components */
@@ -19,6 +31,14 @@
     width: 100%;
 
     margin: 0 auto;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 100%;
 }
 
 .blackTheme {
@@ -36,6 +56,10 @@
 .borderRadiusFull {
     border-radius: 30px;
     border: 1px solid var(--mainBlack);
+}
+
+.innerPadding {
+    padding: 62px;
 }
 
 /* btns */
@@ -71,9 +95,9 @@
 /* fonts */
 
 .h1 {
-    font-size: 75px;
-    font-weight: bold;
-    line-height: 67px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
 }
 
 .h2 {
@@ -95,9 +119,9 @@
 }
 
 .textSmall {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 26px;
 }
 
 .textLarge {
@@ -118,6 +142,63 @@
 
 .textLink {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 20px;
+}
+
+/* adaptive */
+
+@media only screen and (max-width: 1440px) {
+
+    .maxContainerSize {
+        max-width: var(--maxNotebookContainerSize);
+    }
+
+    .borderRadiusUp {
+        border-radius: 24px 24px 0 0;
+    }
+    
+    .borderRadiusDown {
+        border-radius: 0 0 24px 24px;
+    }
+    
+    .borderRadiusFull {
+        border-radius: 24px;
+    }
+
+    .innerPadding {
+        padding: 50px;
+    }
+
+    .h1 {
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 67px;
+    }
+    
+    .h2 {
+        font-size: 47px;
+        font-weight: 400;
+        line-height: 49px;
+    }
+    
+    .textLarge {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .maxContainerSize {
+        max-width: var(--maxTabletContainerSize);
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .maxContainerSize {
+        max-width: var(--maxMobileContainerSize);
+    }
 }
