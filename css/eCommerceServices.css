@@ -63,6 +63,29 @@
     .ECommerceServices-infoCardText {
         max-width: 280px;
      
-        margin: 0 0 0 62px;
-     }
+        margin: 0 0 0 65px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .ECommerceServices-wrapper {
+        flex-direction: column;
+    }
+
+    .ECommerceServices-containerMainInfo {
+        max-width: none;
+    }
+
+    .ECommerceServices-mainText {
+        margin: 25px 0 0;
+    }
+
+    .ECommerceServices-infoCard + .ECommerceServices-infoCard {
+        margin: 40px 0 0;
+    }
+
+    .ECommerceServices-containerInfoCards {
+        margin: 45px 0 0;
+    }
 }

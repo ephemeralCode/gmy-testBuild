@@ -46,12 +46,33 @@
 
     .Main-container {
         height: 851px;
-    
-        background-color: var(--secondaryWhite);
     }
 
     .Main-imageBackground {
         width: 1448px;
         height: 851px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .Main-container {
+        height: 1173px;
+    }
+
+    .Main-containerTitle {
+        top: 150px;
+    }
+
+    .Main-imageBackground {
+        top: -23px;
+
+        width: 2035px;
+        height: 1196px;
+
+        transform: 
+            scale(1.25)
+            translateX(-42%)
+        ;
     }
 }

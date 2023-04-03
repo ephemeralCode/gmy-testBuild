@@ -33,3 +33,14 @@
         margin: 16px 0 0;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    
+    .Bookkeeping-wrapper {
+        height: 399px;
+    }
+
+    .Bookkeeping-text {
+        margin: 20px 0 0;
+    }
+}

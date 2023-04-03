@@ -40,9 +40,25 @@
 
     .VideoProduction-containerInfo {
         max-width: 490px;
-    }
+    } 
 
     .VideoProduction-text {
         margin: 16px 0 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .VideoProduction-containerInfo {
+        max-width: 460px;
+    } 
+
+    .VideoProduction-iconPlay {
+        width: 200px;
+        height: 200px;
+    }
+
+    .VideoProduction-text {
+        margin: 20px 0 0;
     }
 }

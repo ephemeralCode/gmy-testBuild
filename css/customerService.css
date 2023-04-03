@@ -2,7 +2,7 @@
 }
 
 .CustomerService-wrapper {
-    /* height: 548px; */
+    height: 548px;
 }
 
 .CustomerService-containerInfo {
@@ -19,10 +19,12 @@
 }
 
 .CustomerService-image {
-    /* max-width: 780px;
+    max-width: 780px;
+
     width: 100%;
-    max-height: 548px;
-    height: 100%; */
+    height: 100%;
+
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -41,6 +43,26 @@
 
     .CustomerService-image {
         max-width: 624px;
-        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .CustomerService-wrapper {
+        height: 391px;
+    }
+
+    .CustomerService-containerInfo {
+        max-width: 311px;
+    }
+
+    .CustomerService-text {
+        margin: 20px 0 0;
+    }
+
+    .CustomerService-image {
+        max-width: 378px;
+
+        object-position: -145px;
     }
 }

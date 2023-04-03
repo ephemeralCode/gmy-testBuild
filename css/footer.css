@@ -81,6 +81,10 @@
 
 @media only screen and (max-width: 1440px) {
 
+    .Footer-containerLogo {
+        width: 182px;
+    }
+
     .Footer-btnSocial {
         width: 129px;
     }
@@ -88,5 +92,12 @@
     .Footer-btnBackToUp {
         width: 182px;
         height: 53px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .Footer-wrapper {
+        padding: 60px 0 0;
     }
 }

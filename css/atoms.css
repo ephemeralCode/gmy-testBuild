@@ -9,7 +9,7 @@
     /* max size content */
     --maxDesctopContainerSize: 1520px;
     --maxNotebookContainerSize: 1216px;
-    --maxTabletContainerSize: 690px;
+    --maxTabletContainerSize: 688px;
     --maxMobileContainerSize: 320px;
 
     /* breakpoints */
@@ -60,6 +60,10 @@
 
 .innerPadding {
     padding: 62px;
+}
+
+.mobilePadding {
+    padding: 0;
 }
 
 /* btns */
@@ -116,6 +120,12 @@
     font-size: 29px;
     font-weight: 400;
     line-height: 115%;
+}
+
+.h5 {
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 60px;
 }
 
 .textSmall {
@@ -181,6 +191,10 @@
         font-weight: 400;
         line-height: 49px;
     }
+
+    .h5 {
+        font-size: 60px;
+    }
     
     .textLarge {
         font-size: 20px;
@@ -193,6 +207,16 @@
 
     .maxContainerSize {
         max-width: var(--maxTabletContainerSize);
+
+        margin: 0;
+    }
+
+    .innerPadding {
+        padding: 28px;
+    }
+    
+    .mobilePadding {
+        padding: 0 40px;
     }
 }
 
@@ -200,5 +224,22 @@
 
     .maxContainerSize {
         max-width: var(--maxMobileContainerSize);
+
+        margin: 0;
+    }
+
+    .mobilePadding {
+        padding: 0 16px;
+    }
+
+    .h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    .textBtn {
+        font-size: 13px;
+        line-height: 20px;
     }
 }

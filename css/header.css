@@ -46,7 +46,41 @@
 }
 
 @media only screen and (max-width: 1440px)  {
+
     .Header-mainBtn {
         width: 141px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .Header-link + .Header-link {
+        margin: 0 0 0 6px;
+    }
+
+    .Header-mainBtn {
+        width: 125px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .Header-container {
+        height: 72px;
+    }
+
+    .Header-logoIcon {
+        width: 72px;
+        height: 29px;
+    }
+    
+
+    .Header-containerLinks {
+        display: none;
+    }
+
+    .Header-mainBtn {
+        width: 103px;
+        height: 40px;
     }
 }

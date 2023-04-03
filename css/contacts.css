@@ -69,3 +69,23 @@
         padding: 4px 0 15px 0;
     }
 }
+
+@media only screen and (max-width: 768px) {
+
+    .Contacts-container {
+        margin: 60px 0;
+
+        flex-direction: column;
+    }
+
+    .Contacts-containerInput {
+        max-width: none;
+
+        margin: 40px 0 0;
+    }
+
+    .Contacts-wrapperInput {
+        margin: 40px 0 0;
+    }
+
+}
