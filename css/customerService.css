@@ -67,7 +67,7 @@
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
 
     .CustomerService-wrapper {
         height: 266px;
