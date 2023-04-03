@@ -90,7 +90,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
 
     .ECommerceServices-infoCard + .ECommerceServices-infoCard {
         margin: 24px 0 0;
