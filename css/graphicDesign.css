@@ -61,7 +61,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
 
     .GraphicDesign-wrapper {
         height: 267px;

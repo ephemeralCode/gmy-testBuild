@@ -45,7 +45,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
 
     .Bookkeeping-wrapper {
         height: 261px;

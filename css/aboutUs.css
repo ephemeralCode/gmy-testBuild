@@ -59,7 +59,7 @@
 }
 
 .AboutUs-containerCard {
-    width: 480px;
+    width: 360px;
     height: 200px;
 }
 
@@ -144,7 +144,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
 
     .AboutUs-wrapper{
         padding: 32px 20px 40px;
