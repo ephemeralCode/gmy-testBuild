@@ -89,6 +89,10 @@
         top: 130px;
     }
 
+    .Main-text {
+        margin: 0;
+    }
+
     .Main-imageBackground {
         top: -23px;
 
