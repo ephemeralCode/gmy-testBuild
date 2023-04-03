@@ -77,7 +77,7 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
 
     .Main-container {
         height: 729px;
