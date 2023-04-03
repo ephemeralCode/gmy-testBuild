@@ -44,3 +44,14 @@
         margin: 20px 0 0;
     }
 }
+
+@media only screen and (max-width: 360px) {
+
+    .Bookkeeping-wrapper {
+        height: 261px;
+    }
+
+    .Bookkeeping-text {
+        margin: 12px 0 0;
+    }
+}

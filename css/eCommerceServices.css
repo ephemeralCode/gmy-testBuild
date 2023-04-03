@@ -89,3 +89,20 @@
         margin: 45px 0 0;
     }
 }
+
+@media only screen and (max-width: 360px) {
+
+    .ECommerceServices-infoCard + .ECommerceServices-infoCard {
+        margin: 24px 0 0;
+    }
+
+    .ECommerceServices-infoCardNumber {
+        width: 75px;
+    }
+
+    .ECommerceServices-infoCardText {
+        max-width: 168px;
+     
+        margin: 0 0 0 20px;
+    }
+}

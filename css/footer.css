@@ -101,3 +101,45 @@
         padding: 60px 0 0;
     }
 }
+
+@media only screen and (max-width: 360px) {
+
+    .Footer-wrapper {
+        padding: 32px 0 0;
+    }
+
+    .Footer-containerBtns {
+        margin: 54px 0 0;
+    }
+
+    .Footer-containerLogo {
+        width: auto;
+    }
+
+    .Footer-logoIcon {
+        width: 83px;
+        height: 33px;
+    }
+
+    .Footer-btnSocial {
+        width: 100px;
+        height: 40px;
+    }
+
+    .Footer-btnBackToUp {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Footer-btnBackToUpText {
+        display: none;
+    }
+
+    .Footer-iconBtnBackToUp {
+        margin: 0;
+    }
+
+    .Footer-containerCopyright {
+        margin: 28px 0 0;
+    }
+}

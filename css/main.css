@@ -76,3 +76,25 @@
         ;
     }
 }
+
+@media only screen and (max-width: 360px) {
+
+    .Main-container {
+        height: 729px;
+    }
+
+    .Main-containerTitle {
+        top: 130px;
+    }
+
+    .Main-imageBackground {
+        top: -23px;
+
+        width: 1415px;
+        height: 837px;
+
+        transform: 
+            translate(-53%, 3%)
+        ;
+    }
+}

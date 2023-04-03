@@ -135,6 +135,39 @@
 
     .AboutUs-containerCard {
         max-width: none;
+        width: 100%;
         height: auto;
+    }
+
+    .AboutUs-cardTitle {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .AboutUs-wrapper{
+        padding: 32px 20px 40px;
+    }
+
+    .AboutUs-btnToServices {
+        width: 40px;
+        height: 40px;
+    }
+
+    .AboutUs-btnToServicesText {
+        display: none;
+    }
+
+    .AboutUs-iconBtnToServices {
+        margin: 0;
+    }
+
+    .AboutUs-containerCards {
+        gap: 33px 0;
+    }
+
+    .AboutUs-cardText {
+        margin: 24px 0 0;
     }
 }

@@ -136,3 +136,46 @@
         transform: rotate(90deg);
     } */
 }
+
+@media only screen and (max-width: 360px) {
+
+    .Team-container{
+        padding: 0 20px 32px ;
+    }
+
+    .Team-containerPerson:nth-child(1) {
+        height: 263px;
+
+        grid-area: photo1;
+    }
+
+    .Team-containerPerson:nth-child(2) {
+        height: 263px;
+
+        grid-area: photo2;
+    }
+
+    .Team-containerPerson:nth-child(3) {
+        height: 176px;
+
+        grid-area: photo3;
+    }
+
+    .Team-containerPerson:nth-child(4) {
+        height: 176px;
+
+        grid-area: photo4;
+    }
+
+    .Team-containerPerson:nth-child(5) {
+        height: 127px;
+
+        grid-area: photo5;
+    }
+
+    .Team-containerInfoPerson {
+        padding: 16px;
+
+        height: 170px;
+    }
+}

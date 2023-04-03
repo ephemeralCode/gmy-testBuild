@@ -7,6 +7,7 @@
 
 .MedicalBilling-containerInfo {
     max-width: 650px;
+    width: 100%;
 
     background: var(--mainWhite);
 }
@@ -57,7 +58,6 @@
 
     .MedicalBilling-containerInfo {
         max-width: 354px;
-        width: 100%;
     }
 
     .MedicalBilling-text {
@@ -66,5 +66,20 @@
 
     .MedicalBilling-image {
         max-width: 317px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .MedicalBilling-wrapper {
+        height: 261px;
+    }
+
+    .MedicalBilling-containerInfo {
+        max-width: 184px;
+    }
+
+    .MedicalBilling-image {
+        max-width: 137px;
     }
 }
