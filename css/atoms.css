@@ -10,14 +10,14 @@
     --maxDesctopContainerSize: 1520px;
     --maxNotebookContainerSize: 1216px;
     --maxTabletContainerSize: 688px;
-    --maxMobileContainerSize: 360px;
+    --maxMobileContainerSize: 480px;
 
     /* breakpoints */
     /*  
     --Desctop: 1920px;
     --Notebook: 1440px;
     --Tablet: 768px;
-    --Mobile: 360px; 
+    --Mobile: 480px; 
     */
 }
 
@@ -224,10 +224,10 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
 
     .maxContainerSize {
-        max-width: var(--maxMobileContainerSize);
+        max-width: none;
 
         margin: 0;
     }
