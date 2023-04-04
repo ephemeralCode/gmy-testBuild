@@ -111,6 +111,10 @@
     .Footer-emeil {
         font-size: 25px;
     }
+
+    .Footer-copyrightText {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -156,5 +160,9 @@
 
     .Footer-containerCopyright {
         margin: 28px 0 0;
+    }
+
+    .Footer-copyrightText {
+        font-size: 10px;
     }
 }
