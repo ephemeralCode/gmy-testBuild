@@ -207,6 +207,13 @@
     }
 }
 
+@media only screen and (max-width: 1240px) {
+
+    .mobilePadding {
+        padding: 0 20px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .maxContainerSize {

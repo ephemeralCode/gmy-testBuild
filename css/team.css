@@ -54,6 +54,10 @@
 
 @media only screen and (max-width: 1440px) {
 
+        .Team-container{
+        padding: 0 20px 100px ;
+    }
+
     .Team-wrapper {
         height: 475px;
     }
