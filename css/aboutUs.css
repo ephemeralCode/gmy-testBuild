@@ -40,7 +40,7 @@
 }
 
 .AboutUs-iconBtnToServices {
-    margin: 0 0 5px 10px;
+    margin: 0 0 3px 10px;
 
     width: 25px;
     height: 25px;
@@ -49,18 +49,21 @@
 }
 
 .AboutUs-containerCards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-areas: 'column1 column2';
 
     max-width: 1000px;
     width: 100%;
+
+    margin: 0 0 0 40px;
 
     gap: 56px 40px;
 }
 
 .AboutUs-containerCard {
-    width: 425px;
-    height: 200px;
+    max-width: 425px;
+    width: 100%;
+    height: 100%;
 }
 
 .AboutUs-cardTitle {
@@ -78,7 +81,7 @@
 @media only screen and (max-width: 1440px) {
 
     .AboutUs-container {
-        margin: -31px 0 0;
+        margin: -35px 0 0;
     }
 
     .AboutUs-wrapper {
@@ -102,7 +105,6 @@
 
     .AboutUs-containerCard {
         max-width: 385px;
-        height: 226px;
     }
 }
 
@@ -130,7 +132,7 @@
     }
 
     .AboutUs-containerCards {
-        flex-direction: column;
+        grid-template-areas: 'column1';
 
         margin: 60px 0 0;
 
@@ -148,7 +150,7 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 550px) {
 
     .AboutUs-wrapper{
         padding: 32px 20px 40px;

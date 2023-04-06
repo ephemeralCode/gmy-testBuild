@@ -61,16 +61,16 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 550px) {
 
     .GraphicDesign-wrapper {
         height: 267px;
     }
 
     .GraphicDesign-image {
-        max-width: 200px;
-
-        object-position: -90px;
+        max-width: 330px;
+        
+        object-position: -45px;
     }
 
     .GraphicDesign-containerInfo {

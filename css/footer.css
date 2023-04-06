@@ -38,7 +38,7 @@
 .Footer-containerLogo {
     display: flex;
 
-    width: 206px;
+    width: 210px;
 }
 
 .Footer-logoIcon {
@@ -56,8 +56,10 @@
     justify-content: center;
     align-items: center;
 
-    width: 206px;
     height: 53px;
+
+    padding: 0 30px;
+    margin: 0 0 0 20px;
 }
 
 .Footer-iconBtnBackToUp {
@@ -90,8 +92,7 @@
     }
 
     .Footer-btnBackToUp {
-        width: 182px;
-        height: 53px;
+        padding: 0 22px;
     }
 }
 
@@ -102,22 +103,15 @@
     }
 
     .Footer-emeil {
-        font-size: 40px;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-
-    .Footer-emeil {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .Footer-copyrightText {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 550px) {
 
     .Footer-wrapper {
         padding: 32px 0 0;
@@ -163,6 +157,6 @@
     }
 
     .Footer-copyrightText {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
