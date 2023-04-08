@@ -9,6 +9,7 @@
 
         <!-- <link rel="icon" type="image/x-icon" href="./assets/logo.ico"> -->
         <link rel="stylesheet" href="./css/styles.css">
+        <script defer src="./js/script.js"></script>
     </head>
 
     <body>
@@ -17,14 +18,141 @@
                 <img class="Header-logoIcon" src="./assets/icons/logoBlack.svg" alt="logo" />
 
                 <div class="Header-containerLinks">
-                    <a class="Header-link textLink" href="">About</a>
-                    <a class="Header-link textLink" href="">Services</a>
-                    <a class="Header-link textLink" href="">Team</a>
-                    <a class="Header-link textLink" href="">Contacts</a>
+                    <a class="Header-link textLink" href="#aboutUs">About</a>
+                    <a class="Header-link Header-menuDesctop textLink" href="#">Services</a>
+                    <a class="Header-link textLink" href="#team">Team</a>
+                    <a class="Header-link textLink" href="#contacts">Contacts</a>
+                </div>
+
+                <div class="Header-containerMenu blackTheme borderRadiusDown hidden">
+                    <div class="Header-containerMenuLinks">
+                        <a class="Header-menuLink textSmall" href="#bookkeeping">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>Bookkeeping</p>
+                        </a>
+
+                        <a class="Header-menuLink textSmall" href="#medicalBilling">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>Medical Billing</p>
+                        </a>
+    
+                        <a class="Header-menuLink textSmall" href="#management">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>AR Management</p>
+                        </a>
+    
+                        <a class="Header-menuLink textSmall" href="#management">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>AP Management</p>
+                        </a>
+    
+                        <a class="Header-menuLink textSmall" href="#videoProduction">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>Video Production</p>
+                        </a>
+    
+                        <a class="Header-menuLink textSmall" href="#graphicDesign">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>Graphic Design</p>
+                        </a>
+    
+                        <a class="Header-menuLink textSmall" href="#customerService">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>Customer Service</p>
+                        </a>
+    
+                        <a class="Header-menuLink textSmall" href="#eCommerceServices">
+                            <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                        
+                            <p>E-commerce Services</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="Header-containerBurgerMenu hidden">
+                    <div class="Header-containerBurgerHeader">
+                        <img class="Header-iconBurgerLogo" src="./assets/icons/logoWhite.svg" alt="">
+
+                        <button class="Header-burgerBtnClose">
+                            <img class="Header-iconBurgerBtnClose" src="./assets/icons/iconClose.svg" alt="">
+                        </button>
+                    </div>
+                    
+                    <div class="Header-containerBurgerMenuLinks">
+                        <a class="Header-burgerLink textLink" href="#aboutUs">About</a>
+
+                        <div class="Header-containerBurgerMenuLinksSelect">
+                            <button class="Header-burgerSelect Header-menuMobile textLink">
+                                <p>Services</p>
+
+                                <img src="./assets/icons/iconArrowSelect.svg" alt="">
+                            </button>
+
+                            <div class="Header-wrapperBurgerMenuLinksSelect">
+                                <a class="Header-burgerSelectLink" href="#bookkeeping">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>Bookkeeping</p>
+                                </a>
+        
+                                <a class="Header-burgerSelectLink" href="#medicalBilling">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>Medical Billing</p>
+                                </a>
+            
+                                <a class="Header-burgerSelectLink" href="#management">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>AR Management</p>
+                                </a>
+            
+                                <a class="Header-burgerSelectLink" href="#management">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>AP Management</p>
+                                </a>
+            
+                                <a class="Header-burgerSelectLink" href="#videoProduction">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>Video Production</p>
+                                </a>
+            
+                                <a class="Header-burgerSelectLink" href="#graphicDesign">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>Graphic Design</p>
+                                </a>
+            
+                                <a class="Header-burgerSelectLink" href="#customerService">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>Customer Service</p>
+                                </a>
+            
+                                <a class="Header-burgerSelectLink" href="#eCommerceServices">
+                                    <img class="iconArrowText" src="./assets/icons/iconArrowText.svg" alt="">
+                                
+                                    <p>E-commerce Services</p>
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <a class="Header-burgerLink textLink" href="#team">Team</a>
+                        <a class="Header-burgerLink textLink" href="#contacts">Contacts</a>
+                    </div>
                 </div>
     
                 <div class="Header-containerBtns">
-                    <button class="Header-mainBtn primary textUppercase textBtn">Let’s talk</button>
+                    <a class="Header-mainBtn primary textUppercase textBtn" href="#contacts">Let’s talk</a>
 
                     <button class="Header-burgerBtn">
                         <img class="Header-iconBurgerBtn" src="./assets/icons/iconBurger.svg" alt="">
@@ -33,7 +161,7 @@
             </div>
         </header>
 
-        <main class="Main-container">
+        <main class="Main-container" id="main">
             <div class="Main-wrapper">
                 <div class="Main-containerTitle">
                     <h1 class="Main-title h1 textUppercase">Outstanding service</h1>
@@ -47,17 +175,17 @@
             </div>
         </main>
 
-        <section class="AboutUs-container blackTheme borderRadiusUp">
+        <section class="AboutUs-container blackTheme borderRadiusUp" id="aboutUs">
             <div class="AboutUs-wrapper maxContainerSize">
                 <div class="AboutUs-containerDescription">
                     <div class="AboutUs-containerTitle">
                         <h3 class="AboutUs-title h3 textUppercase">About Us</h3>
 
-                        <button class="AboutUs-btnToServices secondary textUppercase textBtn">
+                        <a class="AboutUs-btnToServices secondary textUppercase textBtn" href="#bookkeeping">
                             <p class="AboutUs-btnToServicesText">Explore Services</p>
 
                             <img class="AboutUs-iconBtnToServices" src="./assets/icons/iconArrow.svg" alt="" />
-                        </button>
+                        </a>
                     </div>
 
                     <div class="AboutUs-containerCards">
@@ -101,7 +229,7 @@
             </div>
         </section>
 
-        <section class="Bookkeeping-container blackTheme mobilePadding">
+        <section class="Bookkeeping-container blackTheme mobilePadding" id="bookkeeping">
             <div class="Bookkeeping-wrapper maxContainerSize borderRadiusFull">
                 <div class="Bookkeeping-containerInfo containerInfo innerPadding">
                     <h2 class="Bookkeeping-title h2 textUppercase">Bookkeeping</h2>
@@ -111,7 +239,7 @@
             </div>
         </section>
 
-        <section class="MedicalBilling-container blackTheme mobilePadding">
+        <section class="MedicalBilling-container blackTheme mobilePadding" id="medicalBilling">
             <div class="MedicalBilling-wrapper maxContainerSize">
                 <div class="MedicalBilling-containerInfo containerInfo innerPadding borderRadiusFull">
                     <h2 class="MedicalBilling-title h2 textUppercase">Medical Billing</h2>
@@ -125,7 +253,7 @@
             </div>
         </section>
 
-        <section class="Management-container blackTheme mobilePadding">
+        <section class="Management-container blackTheme mobilePadding" id="management">
             <div class="Management-wrapper maxContainerSize">
                 <div class="Management-gridTemplate">
                     <img class="Management-image borderRadiusFull" src="./assets/images/imageManagement.png" alt="">
@@ -145,7 +273,7 @@
             </div>
         </section>
 
-        <section class="CustomerService-container blackTheme mobilePadding">
+        <section class="CustomerService-container blackTheme mobilePadding" id="customerService">
             <div class="CustomerService-wrapper maxContainerSize">
                 <div class="CustomerService-containerInfo containerInfo innerPadding borderRadiusFull">
                     <h2 class="CustomerService-title h2 textUppercase">Customer Service</h2>
@@ -159,7 +287,7 @@
             </div>
         </section>
 
-        <section class="VideoProduction-container blackTheme mobilePadding">
+        <section class="VideoProduction-container blackTheme mobilePadding" id="videoProduction">
             <div class="VideoProduction-wrapper maxContainerSize borderRadiusFull">
                 <!-- todo vid -->
                 <img class="VideoProduction-iconPlay" src="./assets/icons/iconPlayVideo.svg" />
@@ -172,7 +300,7 @@
             </div>
         </section>
 
-        <section class="GraphicDesign-container blackTheme mobilePadding">
+        <section class="GraphicDesign-container blackTheme mobilePadding" id="graphicDesign">
             <div class="GraphicDesign-wrapper maxContainerSize">
                 <figure>
                     <img class="GraphicDesign-image borderRadiusFull" src="./assets/images/imageGraphicDesign.png" alt="">
@@ -186,7 +314,7 @@
             </div>
         </section> 
 
-        <section class="ECommerceServices-container blackTheme mobilePadding">
+        <section class="ECommerceServices-container blackTheme mobilePadding" id="eCommerceServices">
             <div class="ECommerceServices-wrapper innerPadding maxContainerSize borderRadiusFull">
                 <div class="ECommerceServices-containerMainInfo">
                     <h2 class="ECommerceServices-mainTitle h2 textUppercase">E-commerce Services</h2>
@@ -228,7 +356,7 @@
             </div>
         </section>
 
-        <section class="Team-container blackTheme borderRadiusDown">
+        <section class="Team-container blackTheme borderRadiusDown" id="team">
             <div class="Team-wrapper maxContainerSize">
                 <div class="Team-containerPerson">
                     <img class="Team-imagePerson borderRadiusFull" src="./assets/images/person0.png" />
@@ -282,7 +410,7 @@
             </div>
         </section>
 
-        <section class="Contacts-container maxContainerSize mobilePadding">
+        <section class="Contacts-container maxContainerSize mobilePadding" id="contacts">
             <h1 class="Contacts-title h1">LET'S WORK TOGETHER</h1>
 
             <div class="Contacts-containerInput">
@@ -298,7 +426,7 @@
             </div>
         </section>
 
-        <footer class="Footer-container blackTheme borderRadiusUp mobilePadding">
+        <footer class="Footer-container blackTheme borderRadiusUp mobilePadding" id="footer">
             <div class="Footer-wrapper maxContainerSize">
                 <div class="Footer-containerEmeilLink">
                     <h4 class="Footer-emeilText h4 textUppercase">GET IN TOUCH</h4>
@@ -313,11 +441,11 @@
           
                     <button class="Footer-btnSocial secondary textUppercase textBtn">LinkedIn</button>
 
-                    <button class="Footer-btnBackToUp secondary textUppercase textBtn">
+                    <a class="Footer-btnBackToUp secondary textUppercase textBtn" href="#main">
                         <p class="Footer-btnBackToUpText">back to top</p>
 
                         <img class="Footer-iconBtnBackToUp" src="./assets/icons/iconArrow.svg" alt="" />
-                    </button>
+                    </a>
                 </div>
 
                 <div class="Footer-containerCopyright">

@@ -2,12 +2,12 @@
     position: relative;
 
     margin: -55px 0 0;
+    padding: 100px 20px;
 
     z-index: 5;
 }
 
 .AboutUs-wrapper{
-    padding: 100px 0;
 }
 
 .AboutUs-containerDescription {
@@ -84,10 +84,6 @@
         margin: -35px 0 0;
     }
 
-    .AboutUs-wrapper {
-        padding: 100px 20px;
-    }
-
     .AboutUs-containerTitle {
         max-width: 244px;
     }
@@ -110,7 +106,7 @@
 
 @media only screen and (max-width: 768px) {
  
-    .AboutUs-wrapper{
+    .AboutUs-container{
         padding: 60px 40px;
     }
 
@@ -152,7 +148,7 @@
 
 @media only screen and (max-width: 550px) {
 
-    .AboutUs-wrapper{
+    .AboutUs-container {
         padding: 32px 20px 40px;
     }
 

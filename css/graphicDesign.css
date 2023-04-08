@@ -2,10 +2,11 @@
 }
 
 .GraphicDesign-wrapper {
+    height: 626px;
 }
 
 .GraphicDesign-containerInfo {
-    max-width: 650px;
+    max-width: 660px;
 
     background: var(--mainWhite);
 }
@@ -32,7 +33,7 @@
     }
 
     .GraphicDesign-containerInfo {
-        max-width: 520px;
+        max-width: 530px;
     }
 
     .GraphicDesign-text {
