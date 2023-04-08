@@ -184,6 +184,10 @@
         max-width: 400px;
     }
 
+    .Header-containerMenu {
+        display: none;
+    }
+
     .Header-containerMenuLinks {
         grid-template-areas: 'column1 column2 column3';
     }
