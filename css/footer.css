@@ -16,11 +16,18 @@
 }
 
 .Footer-emeil {
+    display: flex;
+    justify-content: center;
+
     margin: 8px 0 0;
 }
 
 .Footer-emeil:hover {
     color: var(--greenText);
+}
+
+.Footer-textEmeil {
+    margin: 0 0 0 20px;
 }
 
 .Footer-emeilText, .Footer-emeil {
@@ -47,6 +54,10 @@
 }
 
 .Footer-btnSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 153px;
     height: 53px;
 }

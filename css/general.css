@@ -7,10 +7,11 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 98px;
 }
 
 body {
-    font-family: 'Urbanist';
+    font-family: 'UrbanistRegular';
 
     overflow-x: hidden;
 }
@@ -24,4 +25,11 @@ button {
     background: transparent;
     
     cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+    
+    html {
+        scroll-padding-top: 72px;
+    }
 }
