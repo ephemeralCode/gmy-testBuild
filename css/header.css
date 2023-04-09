@@ -143,6 +143,8 @@
     padding: 40px;
 
     background: var(--mainBlack);
+
+    overflow-y: scroll;
 }
 
 .Header-containerBurgerHeader {
