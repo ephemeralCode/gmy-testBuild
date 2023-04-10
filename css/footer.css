@@ -26,6 +26,10 @@
     color: var(--greenText);
 }
 
+.Footer-iconTextEmeil {
+    width: 18px;
+}
+
 .Footer-textEmeil {
     margin: 0 0 0 20px;
 }
