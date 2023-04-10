@@ -140,7 +140,7 @@
     width: 100vw;
     height: 100vh;
 
-    padding: 40px;
+    padding: 40px 40px 100px;
 
     background: var(--mainBlack);
 
