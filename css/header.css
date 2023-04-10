@@ -200,11 +200,11 @@
 }
 
 .Header-iconBurgerSelect {
-    transform: rotate(0deg);
+    transform: rotate(180deg);
 }
 
 .Header-iconBurgerSelect.active {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 }
 
 .Header-containerBurgerMenuLinksSelect {
