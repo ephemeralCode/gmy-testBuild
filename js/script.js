@@ -1,4 +1,5 @@
 let headerMenuDesctop = document.querySelector('.Header-menuDesctop')
+let headerIconMenuDesctop = document.querySelector('.Header-iconMenuDesctop')
 let headerContainerMenu = document.querySelector('.Header-containerMenu')
 let headerMenuLinks = document.querySelectorAll('.Header-menuLink')
 let arrayMenuLinks = [...headerMenuLinks]
@@ -7,6 +8,7 @@ let arrayMenuLinks = [...headerMenuLinks]
 
 headerMenuDesctop.addEventListener('click', () => {
     headerContainerMenu.classList.toggle('hidden')
+    headerIconMenuDesctop.classList.toggle('active')
 })
 
 arrayMenuLinks.map(item => item.addEventListener('click', () => {
@@ -46,8 +48,10 @@ arrayBurgerLinksSelect.map(item => item.addEventListener('click', () => {
 
 // select links
 let headerMenuMobile = document.querySelector('.Header-menuMobile')
+let headerIconBurgerSelect = document.querySelector('.Header-iconBurgerSelect')
 let headerWrapperBurgerMenuLinksSelect = document.querySelector('.Header-wrapperBurgerMenuLinksSelect')
 
 headerMenuMobile.addEventListener('click', () => {
     headerWrapperBurgerMenuLinksSelect.classList.toggle('hidden')
+    headerIconBurgerSelect.classList.toggle('active')
 })

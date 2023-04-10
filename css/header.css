@@ -67,6 +67,24 @@
     width: 100%;
 }
 
+.Header-menuDesctop {
+    display: flex;
+    align-items: center;
+}
+
+.Header-iconMenuDesctop {
+    width: 15px;
+    height: 8px;
+
+    margin: 0 0 0 3px;
+    
+    transform: rotate(180deg);
+}
+
+.Header-iconMenuDesctop.active {
+    transform: rotate(0deg);
+}
+
 .Header-containerBtns {
     display: flex;
 
@@ -181,8 +199,12 @@
     justify-content: space-between;
 }
 
-.Header-wrapperBurgerMenuLinksSelect.hidden .Header-iconBurgerSelect {
-    transform: rotate(90deg);
+.Header-iconBurgerSelect {
+    transform: rotate(0deg);
+}
+
+.Header-iconBurgerSelect.active {
+    transform: rotate(180deg);
 }
 
 .Header-containerBurgerMenuLinksSelect {
