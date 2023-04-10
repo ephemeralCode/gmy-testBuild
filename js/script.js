@@ -22,12 +22,16 @@ let headerBurgerLink = document.querySelectorAll('.Header-burgerLink')
 let arrayBurgerLinks = [...headerBurgerLink]
 let headerWrapperBurgerMenuLinksSelect = document.querySelectorAll('.Header-wrapperBurgerMenuLinksSelect')
 let arrayBurgerLinksSelect = [...headerWrapperBurgerMenuLinksSelect]
+// scroll
+let mainScroll = document.querySelector('body')
 
 headerBurgerBtn.addEventListener('click', () => {
+    mainScroll.style.overflowY = 'hidden'
     headerContainerBurgerMenu.classList.toggle('hidden')
 })
 
 headerBurgerBtnClose.addEventListener('click', () => {
+    mainScroll.style.overflowY = 'scroll'
     headerContainerBurgerMenu.classList.add('hidden')
 })
 

@@ -114,7 +114,11 @@
     }
 
     .Footer-emeil {
-        font-size: 35px;
+        font-size: 30px;
+    }
+
+    .Footer-iconTextEmeil {
+        width: 10px;
     }
 
     .Footer-copyrightText {
