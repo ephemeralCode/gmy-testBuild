@@ -181,6 +181,10 @@
     justify-content: space-between;
 }
 
+.Header-wrapperBurgerMenuLinksSelect.hidden .Header-iconBurgerSelect {
+    transform: rotate(90deg);
+}
+
 .Header-containerBurgerMenuLinksSelect {
     margin: 16px 0 0;
 }

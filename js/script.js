@@ -20,11 +20,12 @@ let headerContainerBurgerMenu = document.querySelector('.Header-containerBurgerM
 let headerBurgerBtnClose = document.querySelector('.Header-burgerBtnClose')
 let headerBurgerLink = document.querySelectorAll('.Header-burgerLink')
 let arrayBurgerLinks = [...headerBurgerLink]
-let headerWrapperBurgerMenuLinksSelect = document.querySelectorAll('.Header-wrapperBurgerMenuLinksSelect')
-let arrayBurgerLinksSelect = [...headerWrapperBurgerMenuLinksSelect]
+let headerBurgerSelectLink = document.querySelectorAll('.Header-wrapperBurgerMenuLinksSelect')
+let arrayBurgerLinksSelect = [...headerBurgerSelectLink]
 // scroll
 let mainScroll = document.querySelector('body')
 
+// burger menu
 headerBurgerBtn.addEventListener('click', () => {
     mainScroll.style.overflowY = 'hidden'
     headerContainerBurgerMenu.classList.toggle('hidden')
@@ -42,3 +43,11 @@ arrayBurgerLinks.map(item => item.addEventListener('click', () => {
 arrayBurgerLinksSelect.map(item => item.addEventListener('click', () => {
     headerContainerBurgerMenu.classList.add('hidden')
 }))
+
+// select links
+let headerMenuMobile = document.querySelector('.Header-menuMobile')
+let headerWrapperBurgerMenuLinksSelect = document.querySelector('.Header-wrapperBurgerMenuLinksSelect')
+
+headerMenuMobile.addEventListener('click', () => {
+    headerWrapperBurgerMenuLinksSelect.classList.toggle('hidden')
+})
