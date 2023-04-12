@@ -15,6 +15,13 @@
 @import 'contacts.css';
 @import 'footer.css';
 
+@import 'videoPresentation.css';
+
+@import 'portfolioMain.css';
+@import 'portfolioGraphicDesign.css';
+@import 'portfolioHeader.css';
+@import 'portfolioPresentation.css';
+
 /* fonts */
 
 @font-face {

@@ -13,7 +13,25 @@
     </head>
 
     <body>
-        <header class="Header-container borderRadiusDown mobilePadding">
+        <section class="VideoPresentation-container hidden">
+            <div class="VideoPresentation-background"></div>
+
+            <button 
+                class="VideoPresentation-containerBtnCloseVideo" 
+                style="
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    padding: 20px;
+                "
+            >
+                <img src="./assets/icons/iconClose.svg" alt="">
+            </button>
+            
+            <iframe class="VideoPresentation-video" src="https://player.vimeo.com/video/53785865?h=212429c774" frameborder="0" allow="fullscreen;" allowfullscreen></iframe>
+        </section>
+
+        <header class="Header-container whiteTheme borderRadiusDown mobilePadding">
             <div class="Header-wrapper maxContainerSize">
                 <img class="Header-logoIcon" src="./assets/icons/logoBlack.svg" alt="logo" />
 
@@ -168,7 +186,7 @@
         <main class="Main-container" id="main">
             <div class="Main-wrapper">
                 <div class="Main-containerTitle">
-                    <h1 class="Main-title h1 textUppercase">Outstanding service</h1>
+                    <h1 class="Main-title h1 textUppercase">Outstanding outsourcing</h1>
                     
                     <p class="Main-text h2">at unbeatable price</p>
                 </div>
@@ -293,7 +311,6 @@
 
         <section class="VideoProduction-container blackTheme mobilePadding" id="videoProduction">
             <div class="VideoProduction-wrapper maxContainerSize borderRadiusFull">
-                <!-- todo vid -->
                 <img class="VideoProduction-iconPlay" src="./assets/icons/iconPlayVideo.svg" />
 
                 <div class="VideoProduction-containerInfo containerInfo innerPadding">

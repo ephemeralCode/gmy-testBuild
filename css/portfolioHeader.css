@@ -1,0 +1,18 @@
+.Header-containerBtnBackToMainPage {
+    display: flex;
+}
+
+.Header-iconBtnBackToMainPage {
+    margin: 5px 0 0;
+
+    width: 14px;
+    height: 10px;
+
+    transform: rotate(90deg);
+}
+
+.Header-textBtnBackToMainPage {
+    margin: 0 0 0 6px;
+
+    color: var(--mainWhite);
+}

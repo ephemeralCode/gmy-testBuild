@@ -1,0 +1,38 @@
+.PortfolioMain-container {
+    padding: 165px 20px 0;
+}
+
+.PortfolioMain-wrapper {
+    text-align: center;
+}
+
+.PortfolioMain-iconMain {
+    max-width: 800px;
+    width: 100%;
+}
+
+.PortfolioMain-containerToggleView {
+    display: flex;
+    
+    max-width: 886px;
+    width: 100%;
+    height: 89px;
+
+    margin: 140px auto 0;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 55px;
+}
+
+.PortfolioMain-btnGraphicDesign {
+    background: #FFFFFF;
+    border-radius: 55px;
+
+    width: 50%;
+}
+
+.PortfolioMain-btnVideoProduction {
+    width: 50%;
+
+    color: var(--mainWhite);
+}
