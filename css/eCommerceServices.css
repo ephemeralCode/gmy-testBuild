@@ -16,14 +16,6 @@
     width: 100%;
 }
 
-.ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.mainText {
-    display: none;
-}
-
-.ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.secondaryText {
-    display: block;
-}
-
 .ECommerceServices-mainTitle {
 }
 
@@ -73,6 +65,17 @@
         max-width: 280px;
      
         margin: 0 0 0 65px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.mainText {
+        display: none;
+    }
+    
+    .ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.secondaryText {
+        display: block;
     }
 }
 

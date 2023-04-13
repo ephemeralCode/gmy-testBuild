@@ -2,7 +2,7 @@
 }
 
 .Management-wrapper {
-    min-height: 1186px;
+    height: 1188px;
 }
 
 .Management-gridTemplate {
@@ -38,14 +38,6 @@
     background: var(--mainWhite);
 }
 
-.Management-containerInfo:hover .Management-text.mainText {
-    display: none;
-}
-
-.Management-containerInfo:hover .Management-text.secondaryText {
-    display: block;
-}
-
 .Management-title {
 }
 
@@ -54,20 +46,29 @@
 }
 
 @media only screen and (max-width: 1440px) {
+    
     .Management-wrapper {
-        height: 878px;
-    }
-
-    .Management-image {
+        height: 960px;
     }
 
     .Management-containerInfo {
-        max-width: 488px;
-        height: 439px;
+        max-width: 490px;
+        height: 480px;
     }
 
     .Management-text {
         margin: 16px 0 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .Management-containerInfo:hover .Management-text.mainText {
+        display: none;
+    }
+    
+    .Management-containerInfo:hover .Management-text.secondaryText {
+        display: block;
     }
 }
 

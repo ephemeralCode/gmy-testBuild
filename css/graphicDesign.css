@@ -43,14 +43,6 @@
     margin: 24px 0 0;
 }
 
-.GraphicDesign-containerInfo:hover .GraphicDesign-text.mainText {
-    display: none;
-}
-
-.GraphicDesign-containerInfo:hover .GraphicDesign-text.secondaryText {
-    display: block;
-}
-
 @media only screen and (max-width: 1440px) {
 
     .GraphicDesign-wrapper {
@@ -63,6 +55,17 @@
 
     .GraphicDesign-text {
         margin: 16px 0 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .GraphicDesign-containerInfo:hover .GraphicDesign-text.mainText {
+        display: none;
+    }
+    
+    .GraphicDesign-containerInfo:hover .GraphicDesign-text.secondaryText {
+        display: block;
     }
 }
 

@@ -12,14 +12,6 @@
     background: var(--mainWhite);
 }
 
-.MedicalBilling-containerInfo:hover .MedicalBilling-text.mainText {
-    display: none;
-}
-
-.MedicalBilling-containerInfo:hover .MedicalBilling-text.secondaryText {
-    display: block;
-}
-
 .MedicalBilling-image {
     max-width: 870px;
 
@@ -39,6 +31,24 @@
     color: var(--mainBlack);
 }
 
+/* hover text */
+@media only screen and (min-width: 992px) {
+
+    .MedicalBilling-wrapperInfo {
+        flex-direction: column;
+        justify-content: end;
+    }
+    
+    .MedicalBilling-containerInfo:hover .MedicalBilling-wrapperInfo.mainText {
+        display: none;
+    }
+    
+    .MedicalBilling-containerInfo:hover .MedicalBilling-wrapperInfo.secondaryText {
+        display: flex;
+    }
+}
+
+/* adaptive */
 @media only screen and (max-width: 1440px) {
     
     .MedicalBilling-wrapper {
@@ -51,10 +61,6 @@
 
     .MedicalBilling-text {
         margin: 16px 0 0;
-    }
-    
-    .MedicalBilling-image {
-        /* max-width: 696px; */
     }
 }
 
