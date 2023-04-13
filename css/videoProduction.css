@@ -22,6 +22,14 @@
     max-width: 640px;
 }
 
+.VideoProduction-containerInfo:hover .VideoProduction-text.mainText {
+    display: none;
+}
+
+.VideoProduction-containerInfo:hover .VideoProduction-text.secondaryText {
+    display: block;
+}
+
 .VideoProduction-title {
 }
 

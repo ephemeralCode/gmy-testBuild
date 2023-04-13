@@ -9,7 +9,15 @@
 }
 
 .Bookkeeping-containerInfo {
-    max-width: 534px;
+    max-width: 670px;
+}
+
+.Bookkeeping-containerInfo:hover .Bookkeeping-text.mainText {
+    display: none;
+}
+
+.Bookkeeping-containerInfo:hover .Bookkeeping-text.secondaryText {
+    display: block;
 }
 
 .Bookkeeping-title {

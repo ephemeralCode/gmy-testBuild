@@ -6,17 +6,17 @@ const arrayMenuLinks = [...headerMenuLinks]
 
 // video container & wrapper
 
-const videoPresentationContainer = document.querySelector('.VideoPresentation-container')
-const videoProductionContainer = document.querySelector('.VideoProduction-container')
-const videoPresentationContainerBtnCloseVideo = document.querySelector('.VideoPresentation-containerBtnCloseVideo')
+// const videoPresentationContainer = document.querySelector('.VideoPresentation-container')
+// const videoProductionContainer = document.querySelector('.VideoProduction-container')
+// const videoPresentationContainerBtnCloseVideo = document.querySelector('.VideoPresentation-containerBtnCloseVideo')
 
-videoProductionContainer.addEventListener('click', () => {
-    videoPresentationContainer.classList.toggle('hidden')
-})
+// videoProductionContainer.addEventListener('click', () => {
+//     videoPresentationContainer.classList.toggle('hidden')
+// })
 
-videoPresentationContainerBtnCloseVideo.addEventListener('click', () => {
-    videoPresentationContainer.classList.add('hidden')
-})
+// videoPresentationContainerBtnCloseVideo.addEventListener('click', () => {
+//     videoPresentationContainer.classList.add('hidden')
+// })
 
 // desctop
 

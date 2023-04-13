@@ -2,13 +2,21 @@
 }
 
 .CustomerService-wrapper {
-    height: 548px;
+    height: 594px;
 }
 
 .CustomerService-containerInfo {
     max-width: 750px;
 
     background: var(--mainWhite);
+}
+
+.CustomerService-containerInfo:hover .CustomerService-text.mainText {
+    display: none;
+}
+
+.CustomerService-containerInfo:hover .CustomerService-text.secondaryText {
+    display: block;
 }
 
 .CustomerService-title {

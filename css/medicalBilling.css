@@ -12,6 +12,14 @@
     background: var(--mainWhite);
 }
 
+.MedicalBilling-containerInfo:hover .MedicalBilling-text.mainText {
+    display: none;
+}
+
+.MedicalBilling-containerInfo:hover .MedicalBilling-text.secondaryText {
+    display: block;
+}
+
 .MedicalBilling-image {
     max-width: 870px;
 

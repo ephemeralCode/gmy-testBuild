@@ -16,6 +16,14 @@
     width: 100%;
 }
 
+.ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.mainText {
+    display: none;
+}
+
+.ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.secondaryText {
+    display: block;
+}
+
 .ECommerceServices-mainTitle {
 }
 

@@ -160,6 +160,10 @@
     line-height: 20px;
 }
 
+.secondaryText {
+    display: none;
+}
+
 /* adaptive */
 
 @media only screen and (max-width: 1440px) {
