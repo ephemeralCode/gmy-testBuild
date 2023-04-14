@@ -10,6 +10,8 @@ function callback(entries, observer) {
             console.log(elem)
 
             elem.target.classList.add('active')
+        } else {
+            elem.target.classList.remove('active')
         }
     })
 }
