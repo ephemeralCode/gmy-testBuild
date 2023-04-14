@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.Header-containerBtnBackToMainPage:hover .Header-iconBtnBackToMainPage {
+    fill: var(--greenText);
+}
+
 .Header-iconBtnBackToMainPage {
     margin: 5px 0 0;
 

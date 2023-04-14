@@ -36,7 +36,7 @@ const headerContainerBurgerMenu = document.querySelector('.Header-containerBurge
 const headerBurgerBtnClose = document.querySelector('.Header-burgerBtnClose')
 const headerBurgerLink = document.querySelectorAll('.Header-burgerLink')
 const arrayBurgerLinks = [...headerBurgerLink]
-const headerBurgerSelectLink = document.querySelectorAll('.Header-wrapperBurgerMenuLinksSelect')
+const headerBurgerSelectLink = document.querySelectorAll('.Header-burgerSelectLink')
 const arrayBurgerLinksSelect = [...headerBurgerSelectLink]
 // scroll
 const mainScroll = document.querySelector('body')
@@ -57,6 +57,7 @@ arrayBurgerLinks.map(item => item.addEventListener('click', () => {
 }))
 
 arrayBurgerLinksSelect.map(item => item.addEventListener('click', () => {
+    mainScroll.style.overflowY = 'scroll'
     headerContainerBurgerMenu.classList.add('hidden')
 }))
 

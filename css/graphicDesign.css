@@ -85,6 +85,11 @@
         max-width: 311px;
     }
 
+    .GraphicDesign-linkToPortfolioPage {
+        width: 180px;
+        height: 50px;
+    }
+
     .GraphicDesign-text {
         margin: 20px 0 0;
     }
@@ -99,10 +104,15 @@
     .GraphicDesign-image {
         max-width: 330px;
         
-        object-position: -45px;
+        object-position: -85px;
     }
 
     .GraphicDesign-containerInfo {
         max-width: 186px;
+    }
+
+    .GraphicDesign-linkToPortfolioPage {
+        width: 125px;
+        height: 32px;
     }
 }

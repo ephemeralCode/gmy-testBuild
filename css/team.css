@@ -1,10 +1,11 @@
-.Team-container{
+.Team-container {
     padding: 0 20px 100px;
 }
 
 .Team-wrapper {
     display: grid;
     grid-template-areas: 'column column column column column';
+    justify-content: unset;
 }
 
 .Team-containerPerson {
@@ -12,46 +13,49 @@
 
     height: 593px;
 
+    background: #fff;
+
     overflow: hidden;
 }
 
 .Team-imagePerson {
-    /* max-width: 304px; */
-    width: 100%;
-    
-    background: #fff;
-    
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
     object-fit: cover;
+    transform: translateX(-50%);
 }
 
 .Team-containerPerson:nth-child(1) .Team-imagePerson {
     height: 800px;
 
-    object-position: -280px 10px;
+    object-position: -65px 10px;
 }
 
 .Team-containerPerson:nth-child(2) .Team-imagePerson {
     height: 800px;
 
-    object-position: -90px 0px;
+    object-position: 35px 0px;
 }
 
 .Team-containerPerson:nth-child(3) .Team-imagePerson {
     height: 800px;
 
-    object-position: -80px 10px;
+    object-position: 0px 10px;
 }
 
 .Team-containerPerson:nth-child(4) .Team-imagePerson {
     height: 800px;
 
-    object-position: -60px 5px;
+    object-position: 10px 5px;
 }
 
 .Team-containerPerson:nth-child(5) .Team-imagePerson {
     height: 800px;
 
-    object-position: -35px 0px;
+    object-position: 10px 0px;
 }
 
 .Team-containerInfoPerson {
@@ -59,7 +63,7 @@
     bottom: 0;
     left: 0;
 
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
@@ -74,10 +78,13 @@
         rgba(27, 27, 27, 0.625018) 30.06%, 
         rgba(27, 27, 27, 0) 99.67%
     );
+
+    opacity: 0;
+    transition: all .5s;
 }
 
 .Team-containerPerson:hover .Team-containerInfoPerson{
-    display: flex;
+    opacity: 1;
 }
 
 .Team-infoPersonName {
@@ -93,7 +100,7 @@
 
 @media only screen and (max-width: 1440px) {
 
-    .Team-container{
+    .Team-container {
         padding: 0 20px 100px ;
     }
 
@@ -101,38 +108,34 @@
         height: 475px;
     }
 
-    .Team-imagePerson {
-        max-width: 304px;
-    }
-
     .Team-containerPerson:nth-child(1) .Team-imagePerson {
-        height: 663px;
-    
-        object-position: -230px 10px;
+        height: 650px;
+
+        object-position: -55px 10px;
     }
     
     .Team-containerPerson:nth-child(2) .Team-imagePerson {
-        height: 663px;
+        height: 650px;
     
-        object-position: -80px 0px;
+        object-position: 25px 0px;
     }
     
     .Team-containerPerson:nth-child(3) .Team-imagePerson {
-        height: 663px;
+        height: 650px;
     
-        object-position: -75px 10px;
+        object-position: 5px 10px;
     }
     
     .Team-containerPerson:nth-child(4) .Team-imagePerson {
-        height: 663px;
+        height: 650px;
     
-        object-position: -55px 5px;
+        object-position: 10px 5px;
     }
     
     .Team-containerPerson:nth-child(5) .Team-imagePerson {
-        height: 663px;
+        height: 650px;
     
-        object-position: -35px 0px;
+        object-position: 10px 0px;
     }
 
     .Team-containerInfoPerson {
@@ -151,20 +154,13 @@
         justify-content: unset;
 
         grid-template-areas: 
-            'photo1 photo3' 
-            'photo1 photo2'
-            'photo4 photo2'
-            'photo5 photo5'
+            'photo2 photo5' 
+            'photo2 photo1'
+            'photo3 photo1'
+            'photo4 photo4'
         ;
 
         height: auto;
-    }
-
-    .Team-imagePerson {
-        max-width: none;
-        height: 100%;
-
-        object-fit: cover;
     }
 
     .Team-containerPerson:nth-child(1) {
@@ -186,27 +182,69 @@
     }
 
     .Team-containerPerson:nth-child(4) {
-        height: 376px;
+        height: 271px;
 
         grid-area: photo4;
     }
 
     .Team-containerPerson:nth-child(5) {
-        height: 271px;
+        height: 376px;
 
         grid-area: photo5;
     }
 
-    .Team-containerInfoPerson {
-        display: flex;
+    /**/
 
-        padding: 28px;
-
-        height: 300px;
+    .Team-imagePerson {
+        height: 100%;
     }
 
+    .Team-containerPerson:nth-child(1) .Team-imagePerson {
+        height: 560px;
+
+        object-position: -10px 10px;
+    }
+    
+    .Team-containerPerson:nth-child(2) .Team-imagePerson {
+        height: 560px;
+
+        object-position: 10px -5px;
+    }
+    
+    .Team-containerPerson:nth-child(3) .Team-imagePerson {
+        height: 560px;
+    
+        object-position: 0px 10px;
+    }
+    
+    .Team-containerPerson:nth-child(4) .Team-imagePerson {
+        height: 460px;
+
+        object-position: 0px 0px;
+        transform: 
+            translateX(15%) 
+            scale(-1, 1)
+        ;
+    }
+
+    .Team-containerPerson:nth-child(5) .Team-imagePerson {
+        height: 680px;
+
+        object-position: 15px 0px
+    }
+
+    .Team-containerPerson:nth-child(1) .Team-containerInfoPerson,
+    .Team-containerPerson:nth-child(2) .Team-containerInfoPerson {
+        height: 304px;
+    }
+
+    .Team-containerPerson:nth-child(3) .Team-containerInfoPerson,
     .Team-containerPerson:nth-child(5) .Team-containerInfoPerson {
-        max-width: 430px;
+        height: 216px;
+    }
+
+    .Team-containerPerson:nth-child(4) .Team-containerInfoPerson {
+        max-width: 425px;
         width: 100%;
         height: 100%;
 
@@ -215,6 +253,20 @@
             rgba(27, 27, 27, 0.625018) 30.06%, 
             rgba(27, 27, 27, 0) 99.67%
         );
+    }
+
+    /**/
+
+    .Team-containerInfoPerson {
+        padding: 28px;
+
+        height: 300px;
+
+        opacity: 1;
+    }
+    
+    .Team-infoPersonName {
+        font-size: 42px;
     }
 }
 
@@ -227,37 +279,80 @@
     .Team-containerPerson:nth-child(1) {
         height: 263px;
 
-        grid-area: photo1;
     }
 
     .Team-containerPerson:nth-child(2) {
         height: 263px;
 
-        grid-area: photo2;
     }
 
     .Team-containerPerson:nth-child(3) {
         height: 176px;
 
-        grid-area: photo3;
     }
 
     .Team-containerPerson:nth-child(4) {
-        height: 176px;
+        height: 127px;
 
-        grid-area: photo4;
     }
 
     .Team-containerPerson:nth-child(5) {
-        height: 127px;
+        height: 176px;
+    }
 
-        grid-area: photo5;
+    /**/
+
+    .Team-containerPerson:nth-child(1) .Team-imagePerson {
+        height: 260px;
+
+        object-position: -10px 5px;
+    }
+
+    .Team-containerPerson:nth-child(2) .Team-imagePerson {
+        height: 260px;
+
+        object-position: 5px 0px;
+    }
+
+    .Team-containerPerson:nth-child(3) .Team-imagePerson {
+        height: 270px;
+
+        object-position: -5px 10px;
+    }
+
+    .Team-containerPerson:nth-child(4) .Team-imagePerson {
+        height: 220px;
+    }
+
+    .Team-containerPerson:nth-child(5) .Team-imagePerson {
+        height: 260px;
+
+        object-position: 0px 0px;
+        transform: translateX(-45%);
+    }
+
+    .Team-containerPerson:nth-child(1) .Team-containerInfoPerson,
+    .Team-containerPerson:nth-child(2) .Team-containerInfoPerson {
+        height: 150px;
+    }
+
+    .Team-containerPerson:nth-child(3) .Team-containerInfoPerson,
+    .Team-containerPerson:nth-child(5) .Team-containerInfoPerson {
+        height: 120px;
+    }
+
+    .Team-containerPerson:nth-child(4) .Team-containerInfoPerson {
+        max-width: 219px;
     }
 
     .Team-containerInfoPerson {
         padding: 16px;
 
         height: 170px;
+    }
+
+    .Team-infoPersonName {
+        font-size: 20px;
     }
 
     .Team-infoPersonProfession {
@@ -268,4 +363,5 @@
 
         font-size: 14px;
     }
+    
 }

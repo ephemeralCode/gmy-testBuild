@@ -36,3 +36,22 @@
 
     color: var(--mainWhite);
 }
+
+@media only screen and (max-width: 768px) {
+
+    .PortfolioMain-iconMain {
+        max-width: 640px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .PortfolioMain-containerToggleView {
+        height: 55px;
+    }
+
+    .PortfolioMain-btnGraphicDesign, .PortfolioMain-btnVideoProduction {
+        font-size: 13px;
+    }
+}

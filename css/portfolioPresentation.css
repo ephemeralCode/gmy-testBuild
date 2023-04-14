@@ -32,7 +32,6 @@
 .portfolioPresentation-containerImage:nth-child(1) {
     grid-area: portfolio1;
 
-    /* width: 778px; */
     height: 724px;
 }
 
@@ -78,4 +77,86 @@
     grid-area: portfolio8;
 
     height: 637px;
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .portfolioPresentation-image {
+        border-radius: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .portfolioPresentation-container {
+        padding: 60px 20px;
+    }
+
+    .portfolioPresentation-grid {
+        display: grid;
+        grid-template-rows: auto; 
+        grid-template-areas: 
+            'portfolio1 portfolio1'
+            'portfolio2 portfolio4'
+            'portfolio3 portfolio3'
+            'portfolio5 portfolio8'
+            'portfolio6 portfolio6'
+            'portfolio7 portfolio7'
+        ;
+    }
+
+    .portfolioPresentation-containerImage:nth-child(1) {
+        height: 370px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(2), .portfolioPresentation-containerImage:nth-child(4) {
+        height: 361px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(3) {
+        height: 374px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(5), .portfolioPresentation-containerImage:nth-child(8) {
+        height: 343px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(6) {
+        height: 417px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(7) {
+        height: 323px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .portfolioPresentation-containerImage:nth-child(1) {
+        height: 185px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(2), .portfolioPresentation-containerImage:nth-child(4) {
+        height: 181px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(3) {
+        height: 187px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(5), .portfolioPresentation-containerImage:nth-child(8) {
+        height: 172px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(6) {
+        height: 108px;
+    }
+    
+    .portfolioPresentation-containerImage:nth-child(7) {
+        height: 161px;
+    }
+
+    .portfolioPresentation-image {
+        border-radius: 8px;
+    }
 }

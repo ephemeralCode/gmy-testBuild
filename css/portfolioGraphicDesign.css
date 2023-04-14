@@ -3,7 +3,7 @@
 }
 
 .PortfolioGraphicDesign-wrapper {
-    height: 725px;
+    min-height: 725px;
 }
 
 .PortfolioGraphicDesign-containerDescription {
@@ -54,4 +54,48 @@
 }
 
 .PortfolioGraphicDesign-infoCardText {
+}
+
+@media only screen and (max-width: 768px) {
+
+    .PortfolioGraphicDesign-wrapper {
+        height: auto;
+    }
+
+    .PortfolioGraphicDesign-containerDescription {
+        display: block;
+    }
+
+    .PortfolioGraphicDesign-mainText {
+        margin: 90px 0 0;
+    }
+
+    .PortfolioGraphicDesign-containerInfoCards {
+        margin: 70px 0 0;
+    }
+
+    .PortfolioGraphicDesign-infoCardNumber {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .PortfolioGraphicDesign-container {
+        padding: 70px 20px 0;
+    }
+
+    .PortfolioGraphicDesign-mainTitle {
+        font-size: 42px;
+    }
+
+    .PortfolioGraphicDesign-mainText {
+        margin: 30px 0 0;
+
+        font-size: 17px;
+    }
+
+    .PortfolioGraphicDesign-infoCardText {
+        font-size: 18px;
+    }
 }
