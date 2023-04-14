@@ -11,6 +11,10 @@
     background: var(--mainWhite);
 }
 
+.CustomerService-info {
+    position: relative;
+}
+
 .CustomerService-title {
 }
 
@@ -36,11 +40,11 @@
     }
     
     .CustomerService-containerInfo:hover .CustomerService-wrapperInfo.mainText {
-        display: none;
+        opacity: 0;
     }
     
     .CustomerService-containerInfo:hover .CustomerService-wrapperInfo.secondaryText {
-        display: flex;
+        opacity: 1;
     }
 }
 

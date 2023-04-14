@@ -9,6 +9,10 @@
     height: 626px;
 }
 
+.Bookkeeping-info {
+    position: relative;
+}
+
 .Bookkeeping-image {
     position: absolute;
     top: 0;
@@ -47,11 +51,11 @@
     }
     
     .Bookkeeping-containerInfo:hover .Bookkeeping-wrapperInfo.mainText {
-        display: none;
+        opacity: 0;
     }
     
     .Bookkeeping-containerInfo:hover .Bookkeeping-wrapperInfo.secondaryText {
-        display: flex;
+        opacity: 1;
     }
 }
 

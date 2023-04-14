@@ -38,6 +38,10 @@
     background: var(--mainWhite);
 }
 
+.Management-info {
+    position: relative;
+}
+
 .Management-title {
 }
 
@@ -63,12 +67,12 @@
 
 @media only screen and (min-width: 992px) {
 
-    .Management-containerInfo:hover .Management-text.mainText {
-        display: none;
+    .Management-containerInfo:hover .Management-weapperInfo.mainText {
+        opacity: 0;
     }
     
-    .Management-containerInfo:hover .Management-text.secondaryText {
-        display: block;
+    .Management-containerInfo:hover .Management-weapperInfo.secondaryText {
+        opacity: 1;
     }
 }
 

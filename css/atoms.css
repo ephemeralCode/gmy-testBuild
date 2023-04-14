@@ -160,8 +160,17 @@
     line-height: 20px;
 }
 
+.mainText {
+    transition: all 1s ease-in-out;
+}
+
 .secondaryText {
-    display: none;
+    position: absolute;
+    bottom: 0;
+
+    opacity: 0;
+
+    transition: all 1s ease-in-out;
 }
 
 /* animation */

@@ -23,7 +23,8 @@
     background: var(--mainWhite);
 }
 
-.GraphicDesign-wrapperInfo {
+.GraphicDesign-info {
+    position: relative;
 }
 
 .GraphicDesign-linkToPortfolioPage {
@@ -43,6 +44,11 @@
     margin: 24px 0 0;
 }
 
+.GraphicDesign-wrapperInfo.secondaryText {
+    position: absolute;
+    bottom: 0;
+}
+
 @media only screen and (max-width: 1440px) {
 
     .GraphicDesign-wrapper {
@@ -60,12 +66,12 @@
 
 @media only screen and (min-width: 992px) {
     
-    .GraphicDesign-containerInfo:hover .GraphicDesign-text.mainText {
-        display: none;
+    .GraphicDesign-containerInfo:hover .GraphicDesign-wrapperInfo.mainText {
+        opacity: 0;
     }
     
-    .GraphicDesign-containerInfo:hover .GraphicDesign-text.secondaryText {
-        display: block;
+    .GraphicDesign-containerInfo:hover .GraphicDesign-wrapperInfo.secondaryText {
+        opacity: 1;
     }
 }
 

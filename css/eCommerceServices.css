@@ -8,6 +8,8 @@
 }
 
 .ECommerceServices-containerMainInfo {
+    position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,6 +22,12 @@
 }
 
 .ECommerceServices-mainText {
+
+}
+
+.ECommerceServices-mainText.secondaryText {
+    position: absolute;
+    bottom: 0;
 }
 
 .ECommerceServices-containerInfoCards {
@@ -71,11 +79,11 @@
 @media only screen and (min-width: 992px) {
     
     .ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.mainText {
-        display: none;
+        opacity: 0;
     }
     
     .ECommerceServices-containerMainInfo:hover .ECommerceServices-mainText.secondaryText {
-        display: block;
+        opacity: 1;
     }
 }
 

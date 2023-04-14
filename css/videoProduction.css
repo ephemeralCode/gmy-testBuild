@@ -43,9 +43,15 @@
 }
 
 .VideoProduction-containerInfo {
+    position: relative;
+
     max-width: 640px;
 
     z-index: 3;
+}
+
+.VideoProduction-wrapperInfo.secondaryText {
+    bottom: 62px;
 }
 
 .VideoProduction-title {
@@ -76,12 +82,12 @@
 
 @media only screen and (min-width: 992px) {
 
-    .VideoProduction-containerInfo:hover .VideoProduction-text.mainText {
-        display: none;
+    .VideoProduction-containerInfo:hover .VideoProduction-wrapperInfo.mainText {
+        opacity: 0;
     }
     
-    .VideoProduction-containerInfo:hover .VideoProduction-text.secondaryText {
-        display: block;
+    .VideoProduction-containerInfo:hover .VideoProduction-wrapperInfo.secondaryText {
+        opacity: 1;
     }
 }
 
