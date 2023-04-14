@@ -9,10 +9,6 @@
     height: 626px;
 }
 
-.Bookkeeping-info {
-    position: relative;
-}
-
 .Bookkeeping-image {
     position: absolute;
     top: 0;
@@ -26,9 +22,26 @@
 }
 
 .Bookkeeping-containerInfo {
+    position: relative;
+
     max-width: 670px;
 
     z-index: 2;
+}
+/* 
+.Bookkeeping-dimming {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: url('../assets/images/Blend_mask.png');
+} */
+
+.Bookkeeping-info {
+    position: relative;
 }
 
 .Bookkeeping-title {

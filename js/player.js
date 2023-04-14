@@ -1,7 +1,7 @@
 
 const playBtn = document.querySelector('.VideoProduction-iconPlay')
 const textContainer = document.querySelector('.VideoProduction-containerInfo')
-const container = document.querySelector('.VideoProduction-container')
+const wrapper = document.querySelector('.VideoProduction-wrapper')
 const previewVideo = document.querySelector('.VideoProduction-previewVideo')
 
 var tag = document.createElement('script');
@@ -47,4 +47,4 @@ function mutePlayer(){
     player.mute()
 }
 
-container.addEventListener('click', () => player.playVideo())
+wrapper.addEventListener('click', () => player.playVideo())

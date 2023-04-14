@@ -25,16 +25,31 @@
 }
 
 .PortfolioMain-btnGraphicDesign {
-    background: #FFFFFF;
+    width: 50%;
+
     border-radius: 55px;
 
-    width: 50%;
+    color: var(--mainWhite);
 }
 
 .PortfolioMain-btnVideoProduction {
     width: 50%;
 
+    border-radius: 55px;
+
     color: var(--mainWhite);
+}
+
+.PortfolioMain-btnGraphicDesign.active {
+    background: #FFFFFF;
+
+    color: var(--mainBlack);
+}
+
+.PortfolioMain-btnVideoProduction.active {
+    background: #FFFFFF;
+
+    color: var(--mainBlack);
 }
 
 @media only screen and (max-width: 768px) {
