@@ -38,7 +38,6 @@
 .portfolioPresentation-containerImage:nth-child(2) {
     grid-area: portfolio2;
 
-    
     height: 539px;
 }
 
@@ -46,7 +45,6 @@
     grid-area: portfolio3;
 
     height: 570px;
-
 }
 
 .portfolioPresentation-containerImage:nth-child(4) {

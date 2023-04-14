@@ -1,5 +1,9 @@
 .Contacts-container {
+    position: relative;
+
     margin: 100px auto;
+
+    z-index: 2;
 }
 
 .Contacts-title {

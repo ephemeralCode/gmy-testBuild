@@ -10,7 +10,7 @@
     --maxDesctopContainerSize: 1520px;
     --maxNotebookContainerSize: 1216px;
     --maxTabletContainerSize: 688px;
-    --maxMobileContainerSize: 550px;
+    --maxMobileContainerSize: 320px;
 
     /* breakpoints */
     /*  
@@ -162,6 +162,25 @@
 
 .secondaryText {
     display: none;
+}
+
+/* animation */
+
+.upAnimationText {
+    transform: translateY(60%);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.downAnimationText {
+    transform: translateY(-170%);
+
+    transition: all 1s ease-in-out;
+}
+
+.active {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 /* adaptive */

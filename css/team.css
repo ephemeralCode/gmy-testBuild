@@ -1,5 +1,8 @@
 .Team-container {
+    position: relative;
     padding: 0 20px 100px;
+
+    z-index: 5;
 }
 
 .Team-wrapper {
