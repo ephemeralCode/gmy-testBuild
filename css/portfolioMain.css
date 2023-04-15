@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-.PortfolioMain-containerToggleView {
+/* .PortfolioMain-containerToggleView {
     display: flex;
     
     max-width: 886px;
@@ -50,7 +50,7 @@
     background: #FFFFFF;
 
     color: var(--mainBlack);
-}
+} */
 
 @media only screen and (max-width: 768px) {
 

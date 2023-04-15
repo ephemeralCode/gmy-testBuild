@@ -37,6 +37,12 @@
     height: 62px;
 }
 
+.GraphicDesign-linkToPortfolioPage:hover {
+    background: var(--greenText);
+
+    border: 1px solid var(--greenText);
+}
+
 .GraphicDesign-title {
 }
 
@@ -49,21 +55,7 @@
     bottom: 0;
 }
 
-@media only screen and (max-width: 1440px) {
-
-    .GraphicDesign-wrapper {
-        height: 501px;
-    }
-
-    .GraphicDesign-containerInfo {
-        max-width: 530px;
-    }
-
-    .GraphicDesign-text {
-        margin: 16px 0 0;
-    }
-}
-
+/* hover text */
 @media only screen and (min-width: 992px) {
     
     .GraphicDesign-containerInfo:hover .GraphicDesign-wrapperInfo.mainText {
@@ -72,6 +64,22 @@
     
     .GraphicDesign-containerInfo:hover .GraphicDesign-wrapperInfo.secondaryText {
         opacity: 1;
+    }
+}
+
+/* adaptive */
+@media only screen and (max-width: 1440px) {
+
+    .GraphicDesign-wrapper {
+        height: 530px;
+    }
+
+    .GraphicDesign-containerInfo {
+        max-width: 530px;
+    }
+
+    .GraphicDesign-text {
+        margin: 16px 0 0;
     }
 }
 

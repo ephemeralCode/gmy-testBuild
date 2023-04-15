@@ -160,19 +160,6 @@
     line-height: 20px;
 }
 
-.mainText {
-    transition: all 1s ease-in-out;
-}
-
-.secondaryText {
-    position: absolute;
-    bottom: 0;
-
-    opacity: 0;
-
-    transition: all 1s ease-in-out;
-}
-
 /* animation */
 
 .upAnimationText {
@@ -190,6 +177,31 @@
 .active {
     transform: translateY(0);
     opacity: 1;
+}
+
+/**/
+
+.containerInfo:hover .innerWrapperInfo .mainText {
+    transition: all .5s ease-in-out;
+}
+
+.mainText:not(:hover) {
+    transition: all .5s ease-in-out .5s;
+}
+
+.secondaryText {
+    position: absolute;
+    bottom: 0;
+
+    opacity: 0;
+}
+
+.containerInfo:hover .innerWrapperInfo .secondaryText {
+    transition: all .5s ease-in-out .5s;
+}
+
+.secondaryText:not(:hover) {
+    transition: all .5s ease-in-out;
 }
 
 /* adaptive */

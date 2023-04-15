@@ -7,8 +7,6 @@ let options = {
 function callback(entries, observer) {
     entries.forEach(elem => {
         if (elem.isIntersecting) {
-            // console.log(elem)
-
             elem.target.classList.add('active')
         } else {
             elem.target.classList.remove('active')

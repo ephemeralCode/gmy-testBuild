@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./css/styles.css">
 
         <script defer src="./js/animatrionTextScroll.js"></script>
+        <script defer src="./js/player.js"></script>
         <script defer src="./js/btnPortfolio.js"></script>
     </head>
 
@@ -23,11 +24,17 @@
                     <p class="Header-textBtnBackToMainPage textUppercase">Website</p>
                 </a>
 
+                <div class="PortfolioHeader-containerToggleView">
+                    <button class="PortfolioHeader-btnGraphicDesign textUppercase active">Graphic Design</button>
+    
+                    <button class="PortfolioHeader-btnVideoProduction textUppercase">Video Production</button>
+                </div>
+
                 <a class="Header-mainBtn secondary textUppercase textBtn" href="#contacts">Let’s talk</a>
             </div>
         </header>
 
-        <main class="PortfolioMain-container blackTheme" id="main">
+        <!-- <main class="PortfolioMain-container blackTheme" id="main">
             <div class="PortfolioMain-wrapper">
                 <img class="PortfolioMain-iconMain" src="./assets/icons/logoMainPortfolio.svg" alt="">
 
@@ -37,11 +44,42 @@
                     <button class="PortfolioMain-btnVideoProduction h4 textUppercase">Video Production</button>
                 </div>
             </div>
-        </main>
+        </main> -->
 
-        <div class="portfolioToggle-container">
+        <div id="main">
             <div class="PortfolioGraphicDesign">
-                <section class="PortfolioGraphicDesign-container blackTheme">
+                <section class="portfolioPresentation-container blackTheme">
+                    <div class="portfolioPresentation-wrapper maxContainerSize">
+                        <div class="portfolioPresentation-grid">
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio1.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio2.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio3.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio4.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio5.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio6.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio7.png" alt="">
+                            </div>
+                            <div class="portfolioPresentation-containerImage">
+                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio8.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="PortfolioGraphicDesign-container blackTheme borderRadiusDown">
                     <div class="PortfolioGraphicDesign-wrapper maxContainerSize">
                         <div class="PortfolioGraphicDesign-containerDescription">
                             <div class="PortfolioGraphicDesign-containerMainInfo">
@@ -88,41 +126,40 @@
                         </div>
                     </div>
                 </section>
-        
-                <section class="portfolioPresentation-container blackTheme borderRadiusDown">
-                    <div class="portfolioPresentation-wrapper maxContainerSize">
-                        <div class="portfolioPresentation-grid">
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio1.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio2.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio3.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio4.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio5.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio6.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio7.png" alt="">
-                            </div>
-                            <div class="portfolioPresentation-containerImage">
-                                <img class="portfolioPresentation-image" src="./assets/images/portfolio/portfolio8.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
             
             <div class="PortfolioVideoProduction hidden">
-                <section class="PortfolioVideoProduction-container blackTheme">
+                <section class="VideoProduction-container blackTheme mobilePadding">
+                    <div class="VideoProduction-wrapper maxContainerSize borderRadiusFull">
+                        <img class="VideoProduction-iconPlay" src="./assets/icons/iconPlayVideo.svg" />
+        
+                        <div class="VideoProduction-containerInfo containerInfo innerPadding">
+                            <div class="VideoProduction-info innerWrapperInfo">
+                                <div class="VideoProduction-wrapperInfo mainText">
+                                    <h2 class="VideoProduction-title h2 textUppercase upAnimationText">Video Production</h2>
+            
+                                    <p class="VideoProduction-text textLarge upAnimationText">Take advantage of innovative video production services for marketing success</p>
+                                </div>
+            
+                                <div class="VideoProduction-wrapperInfo secondaryText">
+                                    <h2 class="VideoProduction-title h2 textUppercase">Video Production</h2>
+            
+                                    <p class="VideoProduction-text textLarge">
+                                        Take advantage of innovative video production services for marketing success.
+                                        <br><br> Our experienced professionals use the latest equipment and techniques to create superior videos that help you tell your story and drive sales.
+                                        <br><br> Benefit from our high-quality videos and marketing video production services for guaranteed results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="VideoProduction-previewVideo"></div>
+                        <div class="VideoProduction-dimming"></div>
+                        <iframe id="player" class="VideoProduction-video" src="https://www.youtube.com/embed/5_SGxF4RLgc?enablejsapi=1&controls=0&iv_load_policy=3&modestbranding=1&hl=en&disablekb=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section class="PortfolioVideoProduction-container blackTheme mobilePadding">
                     <div class="PortfolioGraphicDesign-wrapper maxContainerSize">
                         <div class="PortfolioGraphicDesign-containerDescription">
                             <div class="PortfolioGraphicDesign-containerMainInfo">
@@ -174,12 +211,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-
-                <section class="pepegaBezMaketa blackTheme" style="padding: 100px 20px 100px; position: relative; z-index: 5;">
-                    <div class="maxContainerSize" style="height: 804px; background: #828282; border-radius: 30px;">
-
                     </div>
                 </section>
             </div>

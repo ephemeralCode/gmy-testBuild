@@ -28,17 +28,18 @@
 
     z-index: 2;
 }
-/* 
+
 .Bookkeeping-dimming {
     position: absolute;
     bottom: 0;
     left: 0;
 
-    width: 100%;
+    width: 707px;
     height: 100%;
 
-    background: url('../assets/images/Blend_mask.png');
-} */
+    background: linear-gradient(63.8deg, #1B1B1B -12.56%, rgba(14, 14, 14, 0.511801) 30.83%, rgba(0, 0, 0, 0) 68.21%);
+    z-index: 1;
+}
 
 .Bookkeeping-info {
     position: relative;
@@ -92,6 +93,10 @@
     
     .Bookkeeping-wrapper {
         height: 399px;
+    }
+
+    .Bookkeeping-dimming {
+        width: 85%;
     }
 
     .Bookkeeping-text {

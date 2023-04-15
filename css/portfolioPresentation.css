@@ -1,7 +1,7 @@
 .portfolioPresentation-container {
     position: relative;
 
-    padding: 100px 20px;
+    padding: 190px 20px 0;
 
     z-index: 5;
 }
@@ -91,7 +91,7 @@
 @media only screen and (max-width: 768px) {
 
     .portfolioPresentation-container {
-        padding: 60px 20px;
+        padding: 170px 20px 0;
     }
 
     .portfolioPresentation-grid {
@@ -133,6 +133,10 @@
 }
 
 @media only screen and (max-width: 550px) {
+
+    .portfolioPresentation-container {
+        padding: 100px 20px 0;
+    }
 
     .portfolioPresentation-containerImage:nth-child(1) {
         height: 185px;
