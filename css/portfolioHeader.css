@@ -1,5 +1,11 @@
 .Header-containerBtnBackToMainPage {
     display: flex;
+
+    width: 220px;
+}
+
+.Header-wrapper {
+    position: relative;
 }
 
 .Header-containerBtnBackToMainPage:hover .Header-iconBtnBackToMainPage {
@@ -24,7 +30,7 @@
 .PortfolioHeader-containerToggleView {
     display: flex;
     
-    max-width: 886px;
+    max-width: 700px;
     width: 100%;
     height: 100%;
 
@@ -51,7 +57,7 @@
 }
 
 .PortfolioHeader-btnGraphicDesign, .PortfolioHeader-btnVideoProduction {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .PortfolioHeader-btnGraphicDesign.active {
@@ -66,15 +72,25 @@
     color: var(--mainBlack);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1440px) {
 
-    .PortfolioHeader-btnGraphicDesign, .PortfolioHeader-btnVideoProduction {
-        font-size: 18px;
+    .Header-containerBtnBackToMainPage {
+        width: 141px;
     }
 }
 
+@media only screen and (max-width: 992px) {
+
+    .PortfolioHeader-btnGraphicDesign, .PortfolioHeader-btnVideoProduction {
+        font-size: 16px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
+
+    .PortfolioHeader-containerToggleView {
+        display: none;
+    }
 
     .PortfolioHeader-btnGraphicDesign, .PortfolioHeader-btnVideoProduction {
         font-size: 12px;

@@ -31,6 +31,15 @@
     line-height: 45px;
 }
 
+.Main-containerImageBackground {
+    position: relative;
+
+    width: 100%;
+    height: 1200px;
+    
+    overflow: hidden;
+}
+
 .Main-imageBackground {
     position: absolute;
     top: 30px;

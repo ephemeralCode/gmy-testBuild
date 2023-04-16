@@ -1,27 +1,23 @@
-.VideoProduction-container{
-    padding: 190px 20px 0;
-}
-
 .PortfolioVideoProduction-container {
     position: relative;
 
-    padding: 100px 20px 100px;
+    padding: 100px 0 100px;
 
     z-index: 5;
 }
 
 @media only screen and (max-width: 768px) {
 
-    .VideoProduction-container {
-        padding: 100px 20px 70px;
-    }
-
     .PortfolioVideoProduction-container {
-        padding: 0 20px 70px;
+        padding: 70px 0 70px;
     }
 }
 
 @media only screen and (max-width: 550px) {
+
+    .PortfolioVideoProduction-container {
+        padding: 40px 0 40px;
+    }
 
     .VideoProduction-mainTitle {
         font-size: 42px;

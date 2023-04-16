@@ -1,7 +1,7 @@
 .PortfolioGraphicDesign-container {
     position: relative;
 
-    padding: 120px 20px 100px;
+    padding: 100px 0;
 
     z-index: 5;
 }
@@ -63,7 +63,7 @@
 @media only screen and (max-width: 768px) {
 
     .PortfolioGraphicDesign-container {
-        padding: 70px 20px 70px;
+        padding: 60px 0 60px;
     }
 
     .PortfolioGraphicDesign-wrapper {
@@ -88,6 +88,10 @@
 }
 
 @media only screen and (max-width: 550px) {
+
+    .PortfolioGraphicDesign-container {
+        padding: 40px 0 40px;
+    }
 
     .PortfolioGraphicDesign-mainTitle {
         font-size: 42px;

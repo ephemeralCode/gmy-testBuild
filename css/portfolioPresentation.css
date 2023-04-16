@@ -1,9 +1,12 @@
-.portfolioPresentation-container {
+.portfolioToggle {
     position: relative;
 
     padding: 190px 20px 0;
 
     z-index: 5;
+}
+
+.portfolioPresentation-container {
 }
 
 .portfolioPresentation-wrapper {
@@ -90,8 +93,8 @@
 
 @media only screen and (max-width: 768px) {
 
-    .portfolioPresentation-container {
-        padding: 170px 20px 0;
+    .portfolioToggle {
+        padding: 60px 20px 0;
     }
 
     .portfolioPresentation-grid {
@@ -133,10 +136,6 @@
 }
 
 @media only screen and (max-width: 550px) {
-
-    .portfolioPresentation-container {
-        padding: 100px 20px 0;
-    }
 
     .portfolioPresentation-containerImage:nth-child(1) {
         height: 185px;
