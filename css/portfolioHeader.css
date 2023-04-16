@@ -4,10 +4,6 @@
     width: 220px;
 }
 
-.Header-wrapper {
-    position: relative;
-}
-
 .Header-containerBtnBackToMainPage:hover .Header-iconBtnBackToMainPage {
     fill: var(--greenText);
 }

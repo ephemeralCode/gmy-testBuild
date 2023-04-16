@@ -47,4 +47,13 @@ function mutePlayer(){
     player.mute()
 }
 
-wrapper.addEventListener('click', () => player.playVideo())
+wrapper.addEventListener('click', () => {
+    let state = player.getPlayerState()
+
+    if (state == -1 || state == 2 || state == 0 || state == 5) {
+        player.playVideo()
+
+    } else if (state == 1) {
+        player.pauseVideo()
+    }
+})
