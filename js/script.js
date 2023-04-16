@@ -53,6 +53,7 @@ headerBurgerBtnClose.addEventListener('click', () => {
 })
 
 arrayBurgerLinks.map(item => item.addEventListener('click', () => {
+    mainScroll.style.overflowY = 'scroll'
     headerContainerBurgerMenu.classList.add('hidden')
 }))
 
