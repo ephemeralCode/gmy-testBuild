@@ -63,7 +63,7 @@
 @media only screen and (max-width: 768px) {
 
     .PortfolioGraphicDesign-container {
-        padding: 60px 0 60px;
+        padding: 60px 0;
     }
 
     .PortfolioGraphicDesign-wrapper {
@@ -90,7 +90,7 @@
 @media only screen and (max-width: 550px) {
 
     .PortfolioGraphicDesign-container {
-        padding: 40px 0 40px;
+        padding: 40px 0;
     }
 
     .PortfolioGraphicDesign-mainTitle {

@@ -1,7 +1,7 @@
 .PortfolioVideoProduction-container {
     position: relative;
 
-    padding: 100px 0;
+    /* padding: 100px 0; */
 
     z-index: 5;
 }
@@ -9,14 +9,15 @@
 @media only screen and (max-width: 768px) {
 
     .PortfolioVideoProduction-container {
-        padding: 70px 0;
+        /* padding: 70px 0; */
     }
 }
 
 @media only screen and (max-width: 550px) {
 
     .PortfolioVideoProduction-container {
-        padding: 40px 0;
+        /* padding: 40px 0; */
+        margin: 40px 0;
     }
 
     .VideoProduction-mainTitle {
