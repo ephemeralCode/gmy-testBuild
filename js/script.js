@@ -4,22 +4,7 @@ const headerContainerMenu = document.querySelector('.Header-containerMenu')
 const headerMenuLinks = document.querySelectorAll('.Header-menuLink')
 const arrayMenuLinks = [...headerMenuLinks]
 
-//! video container & wrapper
-
-// const videoPresentationContainer = document.querySelector('.VideoPresentation-container')
-// const videoProductionContainer = document.querySelector('.VideoProduction-container')
-// const videoPresentationContainerBtnCloseVideo = document.querySelector('.VideoPresentation-containerBtnCloseVideo')
-
-// videoProductionContainer.addEventListener('click', () => {
-//     videoPresentationContainer.classList.toggle('hidden')
-// })
-
-// videoPresentationContainerBtnCloseVideo.addEventListener('click', () => {
-//     videoPresentationContainer.classList.add('hidden')
-// })
-
 // desctop
-
 headerMenuDesctop.addEventListener('click', () => {
     headerContainerMenu.classList.toggle('hidden')
     headerIconMenuDesctop.classList.toggle('active')
@@ -30,7 +15,6 @@ arrayMenuLinks.map(item => item.addEventListener('click', () => {
 }))
 
 // mobile
-
 const headerBurgerBtn = document.querySelector('.Header-burgerBtn')
 const headerContainerBurgerMenu = document.querySelector('.Header-containerBurgerMenu')
 const headerBurgerBtnClose = document.querySelector('.Header-burgerBtnClose')

@@ -2,7 +2,8 @@
 const playBtn = document.querySelector('.VideoProduction-iconPlay')
 const textContainer = document.querySelector('.VideoProduction-containerInfo')
 const wrapper = document.querySelector('.VideoProduction-wrapper')
-const previewVideo = document.querySelector('.VideoProduction-previewVideo')
+// const mainPreviewVideo = document.querySelector('.VideoProduction-previewVideo')
+const portfolioPreviewVideo = document.querySelector('.PortfolioVideoProduction-previewVideo')
 
 var tag = document.createElement('script');
 
@@ -28,7 +29,8 @@ function handleEnding(playerStatus){
     if(playerStatus == 0){
         player.stopVideo()
 
-        previewVideo.style.display = 'block'
+        // mainPreviewVideo.style.display = 'block'
+        portfolioPreviewVideo.style.display = 'block'
         playBtn.style.display = 'block'
     }
 }
@@ -37,7 +39,8 @@ function handlePlayPause(playerStatus){
     if(playerStatus == 1){
         playBtn.style.display = 'none'
         
-        previewVideo.style.display = 'none'
+        // mainPreviewVideo.style.display = 'none'
+        portfolioPreviewVideo.style.display = 'none'
 
         if (textContainer) {
             textContainer.style.display = 'none'

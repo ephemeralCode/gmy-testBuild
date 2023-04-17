@@ -1,3 +1,7 @@
+.Header-container.PortfolioHeader {
+    position: absolute;
+}
+
 .Header-containerBtnBackToMainPage {
     display: flex;
 

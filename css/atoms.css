@@ -182,11 +182,11 @@
 /**/
 
 .containerInfo:hover .innerWrapperInfo .mainText {
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .mainText:not(:hover) {
-    transition: all .5s ease-in-out .5s;
+    transition: all .3s ease-in-out .3s;
 }
 
 .secondaryText {
@@ -197,11 +197,11 @@
 }
 
 .containerInfo:hover .innerWrapperInfo .secondaryText {
-    transition: all .5s ease-in-out .5s;
+    transition: all .3s ease-in-out .3s;
 }
 
 .secondaryText:not(:hover) {
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 /* adaptive */

@@ -110,10 +110,10 @@
     }
 
     .Main-imageBackground {
-        top: 50px;
+        top: 10px;
         
-        height: 790px;
-
+        height: 850px;
+ 
         transform: translateX(-43%);
     }
 }
