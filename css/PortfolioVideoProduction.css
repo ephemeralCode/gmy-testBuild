@@ -1,33 +1,17 @@
-.PortfolioVideoProduction-container {
-    position: relative;
-
-    padding: 100px 0;
-
-    z-index: 5;
-}
-
 @media only screen and (max-width: 768px) {
 
-    .PortfolioVideoProduction-container {
-        padding: 70px 0;
+    .PortfolioVideoProduction-container .VideoProduction-wrapper {
+        height: 457px;
     }
 }
 
 @media only screen and (max-width: 550px) {
 
-    .PortfolioVideoProduction-container {
-        padding: 40px 0;
+    .PortfolioVideoProduction-container .VideoProduction-wrapper {
+        height: 212px;
     }
 
-    .PortfolioGraphicDesign-wrapper {
-        padding: 40px 0;
-    }
-
-    .PortfolioGraphicDesign-containerDescription {
-        padding: 40px 0;
-    }
-
-    .VideoProduction-mainTitle {
-        font-size: 42px;
+    .PortfolioVideoProduction-container .VideoProduction-wrapper .VideoProduction-iconPlay {
+        top: 50%;
     }
 }
