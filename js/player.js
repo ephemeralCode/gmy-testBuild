@@ -36,10 +36,16 @@ function handleEnding(playerStatus){
 function handlePlayPause(playerStatus){
     if(playerStatus == 1){
         playBtn.style.display = 'none'
-        textContainer.style.display = 'none'
+        
         previewVideo.style.display = 'none'
+
+        if (textContainer) {
+            textContainer.style.display = 'none'
+        }
     } else {
-        textContainer.style.display = 'flex' 
+        if (textContainer) {
+            textContainer.style.display = 'flex'
+        }
     }
 }
 

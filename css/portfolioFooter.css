@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
 
+    background: var(--mainBlack);
+
     width: 40px;
     height: 40px;
 }

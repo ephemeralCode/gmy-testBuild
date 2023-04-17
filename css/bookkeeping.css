@@ -7,6 +7,8 @@
     justify-content: unset;
 
     height: 626px;
+    
+    overflow: hidden;
 }
 
 .Bookkeeping-image {
@@ -108,6 +110,10 @@
 
     .Bookkeeping-wrapper {
         height: 261px;
+    }
+
+    .Bookkeeping-info {
+        max-width: 250px;
     }
 
     .Bookkeeping-text {

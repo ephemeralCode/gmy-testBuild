@@ -1,5 +1,4 @@
 .VideoProduction-container {
-    cursor: pointer;
 }
 
 .VideoProduction-wrapper {
@@ -9,6 +8,7 @@
 
     background: #999999;
 
+    cursor: pointer;
     overflow: hidden;
 }
 
@@ -134,6 +134,10 @@
     .VideoProduction-containerInfo {
         max-width: none;
     } 
+
+    .VideoProduction-wrapperInfo {
+        max-width: 260px;
+    }
 
     .VideoProduction-iconPlay {
         top: 86px;
