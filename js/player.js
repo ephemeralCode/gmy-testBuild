@@ -16,7 +16,8 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
       events: {
         'onStateChange': onStateChange,
-        'onReady': mutePlayer
+        // 'onReady': mutePlayer
+        'onReady': setFullHD
       }
     });
   }
@@ -52,8 +53,12 @@ function handlePlayPause(playerStatus){
     }
 }
 
-function mutePlayer(){
-    player.mute()
+// function mutePlayer(){
+//     player.mute()
+// }
+
+function setFullHD(){
+    player.setPlaybackQuality('hd1080')
 }
 
 wrapper.addEventListener('click', () => {
